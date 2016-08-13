@@ -1,0 +1,276 @@
+/*Imports */
+/* line 4, ../scss/_navigation-bar.scss */
+#navigation_bar {
+  width: 100%;
+  height: 50px;
+  background-color: transparent;
+  z-index: 99;
+  position: fixed;
+  background-color: #c9c9c9;
+  overflow: hidden;
+  /*____Jquery animation duration____ */
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 0s;
+}
+
+/* line 17, ../scss/_navigation-bar.scss */
+#inicio {
+  width: 160px;
+  height: 40px;
+  background-color: #202020;
+  border: none;
+  border-style: hidden;
+  color: whitesmoke;
+  margin-top: 5px;
+  margin-left: 10px;
+  text-align: center;
+  font-family: 'prime_light';
+  font-size: 20px;
+  /*--BORDER--*/
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 36, ../scss/_navigation-bar.scss */
+#acerca {
+  width: 160px;
+  height: 40px;
+  background-color: #202020;
+  border: none;
+  border-style: hidden;
+  color: whitesmoke;
+  margin-left: 10px;
+  margin-top: 5px;
+  text-align: center;
+  font-family: 'prime_light';
+  font-size: 20px;
+  /*--BORDER--*/
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 54, ../scss/_navigation-bar.scss */
+#planes {
+  width: 160px;
+  height: 40px;
+  background-color: #202020;
+  border: none;
+  border-style: hidden;
+  color: whitesmoke;
+  margin-left: 10px;
+  margin-top: 5px;
+  text-align: center;
+  font-family: 'prime_light';
+  font-size: 20px;
+  /*--BORDER--*/
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 73, ../scss/_navigation-bar.scss */
+#contacto {
+  width: 160px;
+  height: 40px;
+  background-color: #202020;
+  border: none;
+  border-style: hidden;
+  color: whitesmoke;
+  margin-left: 10px;
+  margin-top: 5px;
+  text-align: center;
+  font-family: 'prime_light';
+  font-size: 20px;
+  /*--BORDER--*/
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 92, ../scss/_navigation-bar.scss */
+#wolf_text {
+  width: 220px;
+  height: 40px;
+  float: right;
+  margin-right: 10px;
+  background-color: transparent;
+  border: none;
+  border-style: hidden;
+  color: #202020;
+  margin-left: 10px;
+  margin-top: 5px;
+  text-align: left;
+  font-family: 'prime_light';
+  font-size: 20px;
+  background-image: url("wolf.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  /*--BORDER--*/
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 1, ../scss/_body.scss */
+body {
+  background-color: #f5f5f5;
+}
+
+/* line 1, ../scss/_text-containers.scss */
+#container_1 {
+  width: 100%;
+  height: 300px;
+  background-image: url("wolf.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+  position: absolute;
+  z-index: 1;
+  margin-top: 50px;
+  text-align: right;
+  color: #202020;
+  font-family: 'prime_light';
+  font-size: 70px;
+  /*____Jquery animation duration____ */
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 0s;
+}
+
+/* line 20, ../scss/_text-containers.scss */
+#container_2 {
+  width: 90%;
+  height: 100px;
+  position: absolute;
+  z-index: 1;
+  margin-top: 150px;
+  text-align: right;
+  color: #202020;
+  font-family: 'prime_light';
+  font-size: 70px;
+  /*____Jquery animation duration____ */
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 0s;
+}
+
+/* line 37, ../scss/_text-containers.scss */
+#container_3 {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  z-index: 1;
+  margin-top: 500px;
+  text-align: center;
+  color: #202020;
+  font-family: 'prime_light';
+  font-size: 40px;
+  /*____Jquery animation duration____ */
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 0s;
+}
+
+/* line 54, ../scss/_text-containers.scss */
+#container_4 {
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  background-color: #adadad;
+  z-index: 1;
+  margin-top: 750px;
+  text-align: center;
+  color: #202020;
+  font-family: 'prime_light';
+  font-size: 30px;
+  /*____Jquery animation duration____ */
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 0s;
+}
+
+/* line 71, ../scss/_text-containers.scss */
+#container_5 {
+  width: 100%;
+  height: 650px;
+  position: absolute;
+  background-color: #adadad;
+  z-index: 1;
+  margin-top: 1420px;
+  text-align: center;
+  color: #202020;
+  font-family: 'prime_light';
+  font-size: 30px;
+  /*____Jquery animation duration____ */
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 0s;
+}
+
+/* line 88, ../scss/_text-containers.scss */
+#container_6 {
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  background-color: #adadad;
+  z-index: 1;
+  margin-top: 2100px;
+  text-align: center;
+  color: #202020;
+  font-family: 'prime_light';
+  font-size: 30px;
+  /*____Jquery animation duration____ */
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 0s;
+}
+
+/* line 105, ../scss/_text-containers.scss */
+#plan1 {
+  text-align: left;
+}
+
+/* line 110, ../scss/_text-containers.scss */
+#plan2 {
+  text-align: center;
+}
+
+/* line 115, ../scss/_text-containers.scss */
+#plan3 {
+  text-align: right;
+}
+
+/*Fonts */
+@font-face {
+  font-family: 'prime_regular';
+  src: url("prime regular.otf");
+}
+
+@font-face {
+  font-family: 'prime_light';
+  src: url("prime light.otf");
+}
+
+/* line 17, ../scss/index.scss */
+* {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/*CUSTOMIZE SCROLL BAR       margn top 50 color:f2f2f2*/
+/* line 25, ../scss/index.scss */
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+/* line 28, ../scss/index.scss */
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: thin 0 0 6px #202020;
+  background-color: #f5f5f5;
+}
+
+/* line 32, ../scss/index.scss */
+body::-webkit-scrollbar-thumb {
+  background-color: #202020;
+  outline: 1px solid #202020;
+  /*--BORDER--*/
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}

@@ -1,0 +1,39 @@
+/*Imports */
+@import "_navigation-bar";
+@import "_background";
+@import "_body";
+@import "_text-containers";
+
+/*Fonts */
+@font-face {
+    font-family: 'prime_regular';
+    src: url("prime regular.otf");
+  }
+  @font-face {
+      font-family: 'prime_light';
+      src: url("prime light.otf");
+    }
+
+*{
+padding: 0;
+margin: 0;
+overflow-x: hidden;
+}
+
+
+/*CUSTOMIZE SCROLL BAR       margn top 50 color:f2f2f2*/
+body::-webkit-scrollbar {
+    width: 1em;
+}
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: thin 0 0 6px #202020;
+    background-color: #f5f5f5;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #202020;
+    outline: 1px solid #202020;
+    /*--BORDER--*/
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
