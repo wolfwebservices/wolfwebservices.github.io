@@ -1,8 +1,3 @@
-/*Imports */
-@import "_navigation-bar";
-@import "_background";
-@import "_body";
-@import "_text-containers";
 
 /*Fonts */
 @font-face {
@@ -13,13 +8,20 @@
       font-family: 'prime_light';
       src: url("prime light.otf");
     }
+    @font-face {
+font-family: 'Nova Square', cursive;
+      }
 
 *{
 padding: 0;
 margin: 0;
 overflow-x: hidden;
 }
-
+/*Imports */
+@import "_navigation-bar";
+@import "_background";
+@import "_body";
+@import "_text-containers";
 
 /*CUSTOMIZE SCROLL BAR       margn top 50 color:f2f2f2*/
 body::-webkit-scrollbar {
