@@ -8,7 +8,10 @@
       font-family: 'prime_light';
       src: url("primelight.otf");
     }
-
+    @font-face {
+        font-family: 'raleway';
+        src: url("ralewaythin.otf");
+      }
 
 *{
 padding: 0;
@@ -17,9 +20,10 @@ overflow-x: hidden;
 }
 /*Imports */
 @import "_navigation-bar";
+@import "_text-containers";
 @import "_background";
 @import "_body";
-@import "_text-containers";
+
 
 /*CUSTOMIZE SCROLL BAR       margin top 50 color:f2f2f2*/
 body::-webkit-scrollbar {
