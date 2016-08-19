@@ -21,6 +21,32 @@
     <button id="wolf_text">Wolf Web Services</button>
 </div>
 
+<script>
+    $("#acerca").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#container_3").offset().top
+        }, 500);
+    });
+
+    $("#inicio").click(function() {
+        $('html, body').animate({
+            scrollTop: $("body").offset().top
+        }, 500);
+    });
+
+
+    $("#planes").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#table_text2").offset().top
+        }, 500);
+    });
+
+    $("#contacto").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#container_6").offset().top
+        }, 500);
+    });
+</script>
 
 <div id="container_1" class="bounceInLeft"></div>
 
@@ -52,19 +78,23 @@
         });
     });
 </script>
+<div id="top_planes">
+    <br>
+</div>
 
 <div id="container_5">
     <h1 id="table_text2">Planes</h1>
+    <h1 id="top_planes">Planes</h1>
     <table>
         <tr>
             <td id="gray">
-                <h2 id="table_text1">Ultimate</h2>
+                <h2 id="table_text1">Básico</h2>
             </td>
             <td id="gray">
                 <h2 id="table_text1">Premium</h2>
             </td>
             <td id="gray">
-                <h2 id="table_text1">Básico</h2>
+                <h2 id="table_text1">Ultimate</h2>
             </td>
 
         </tr>
@@ -72,40 +102,40 @@
         <!--_______________________________-->
         <tr>
             <td id="whitesmoke">
-                <p id="precio1">$6000</p>
+                <p id="precio1">$4000</p>
             </td>
             <td id="whitesmoke">
                 <p id="precio2">$5000</p>
             </td>
             <td id="whitesmoke">
-                <p id="precio3">$4000</p>
+                <p id="precio3">$6000</p>
             </td>
 
         </tr>
         <!--_______________________________-->
         <tr>
+            <td id="gray">
+                <p id="table_text">Sin catálogo</p>
+            </td>
+            <td id="gray">
+                <p id="table_text">Sin catálogo</p>
+            </td>
             <td id="gray">
                 <p id="table_text">Catálogo de productos</p>
             </td>
-            <td id="gray">
-
-            </td>
-            <td id="gray">
-
-            </td>
 
         </tr>
 
         <!--_______________________________-->
         <tr>
             <td id="whitesmoke">
-                <p id="table_text">Base de datos</p>
+                <p id="table_text">Sin base de datos</p>
             </td>
             <td id="whitesmoke">
-                <p id="table_text"></p>
+                <p id="table_text">Sin base de datos</p>
             </td>
             <td id="whitesmoke">
-                <p id="table_text"></p>
+                <p id="table_text">Base de datos </p>
             </td>
 
         </tr>
@@ -114,13 +144,14 @@
         <tr>
 
 
+            <td id="gray">
+                <p id="table_text">Sin vectorización</p>
+            </td>
+            <td id="gray">
+                <p id="table_text">Vectorización de logotipos</p>
+            </td>
             <td id="gray">
                 <p id="table_text">Vectorización de logotipo</p>
-            </td>
-            <td id="gray">
-            </td>
-            <td id="gray">
-
             </td>
         </tr>
 
@@ -132,36 +163,36 @@
                 <p id="table_text">5 páginas</p>
             </td>
             <td id="whitesmoke">
-                <p id="table_text"></p>
+                <p id="table_text">7 páginas</p>
             </td>
             <td id="whitesmoke">
-                <p id="table_text"></p>
+                <p id="table_text">10 páginas</p>
             </td>
         </tr>
         <!--_______________________________-->
         <tr>
 
+            <td id="gray">
+                <p id="table_text">No compatbile con dispositivos moviles</p>
+            </td>
             <td id="gray">
                 <p id="table_text">Compatible con dispositivos moviles</p>
             </td>
             <td id="gray">
-                <p id="table_text"></p>
-            </td>
-            <td id="gray">
-                <p id="table_text"></p>
+                <p id="table_text">Compatible con dispositivos moviles</p>
             </td>
 
         </tr>
         <!--_______________________________-->
         <tr>
             <td id="whitesmoke">
+                <p id="table_text">Correo con el nomber de la compañia</p>
+            </td>
+            <td id="whitesmoke">
+                <p id="table_text">Correo con el nombre de la compañia</p>
+            </td>
+            <td id="whitesmoke">
                 <p id="table_text">Correo con el nombre de la compañía</p>
-            </td>
-            <td id="whitesmoke">
-                <p id="table_text"></p>
-            </td>
-            <td id="whitesmoke">
-                <p id="table_text"></p>
             </td>
 
         </tr>
@@ -171,35 +202,36 @@
                 <p id="table_text">Descuento de 300$ en el primer año del dominio</p>
             </td>
             <td id="gray">
-                <p id="table_text"></p>
+                <p id="table_text">Descuento de 300$ en el primer año del dominio</p>
             </td>
             <td id="gray">
-                <p id="table_text"></p>
+                <p id="table_text">Descuento de 300$ en el primer año del dominio</p>
             </td>
 
         </tr>
         <!--_______________________________-->
         <tr>
+            <td id="whitesmoke" id="table_text">
+                <p id="table_text">2GB de espacio en el servidor</p>
+            </td>
+            <td id="whitesmoke">
+                <p id="table_text">4GB de espacio en el servidor</p>
+            </td>
             <td id="whitesmoke" id="table_text">
                 <p id="table_text">8GB de espacio en el servidor</p>
             </td>
-            <td id="whitesmoke">
-                <p id="table_text"></p>
-            </td>
-            <td id="whitesmoke" id="table_text">
-                <p id="table_text"></p>
-            </td>
 
         </tr>
         <!--_______________________________-->
         <tr>
             <td id="gray" id="table_text">
-                <p id="table_text">Página extra 200$</p>
+                <p id="table_text">Página extra $200</p>
             </td>
             <td id="gray">
-                <p id="table_text"></p>
+                <p id="table_text">Página extra $200</p>
             </td>
-            <td id="gray" id="table_text">
+            <td id="gray">
+                <p id="table_text">Página extra $200</p>
             </td>
         </tr>
     </table>
@@ -211,8 +243,13 @@
 <div id="container_6">
     <h1>Contactános</h1>
     <p>
-        <br> Teléfono/Whatsapp: 811-98-94-739
+        <br> Teléfono/Whatsapp:
+        <br>Angelo Giuseppe 811-98-94-739
+        <br> Eugenio Cantú 811-07-31-164
+        <br>
         <br> Mail: wolfwebservices.corp@gmail.com
+
+        <br> Visita nuestra <a href="https://www.facebook.com/wolfwebservices">página</a> de Facebook
     </p>
 
 </div>

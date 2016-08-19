@@ -1,30 +1,26 @@
-
 /*Fonts */
 @font-face {
     font-family: 'prime_regular';
     src: url("prime regular.otf");
-  }
-  @font-face {
-      font-family: 'prime_light';
-      src: url("primelight.otf");
-    }
-    @font-face {
-        font-family: 'raleway';
-        src: url("cabinregular.ttf");
-      }
-
-*{
-padding: 0;
-margin: 0;
-overflow-x: hidden;
+}
+@font-face {
+    font-family: 'prime_light';
+    src: url("primelight.otf");
+}
+@font-face {
+    font-family: 'cabin';
+    src: url("cabinregular.ttf");
+}
+* {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
 }
 /*Imports */
 @import "_navigation-bar";
 @import "_text-containers";
 @import "_background";
 @import "_body";
-
-
 /*CUSTOMIZE SCROLL BAR       margin top 50 color:f2f2f2*/
 body::-webkit-scrollbar {
     width: 1em;
