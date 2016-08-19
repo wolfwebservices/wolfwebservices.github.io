@@ -11,7 +11,7 @@
 
 @font-face {
   font-family: 'raleway';
-  src: url("ralewaythin.otf");
+  src: url("cabinregular.ttf");
 }
 
 /* line 16, ../scss/index.scss */
@@ -271,17 +271,17 @@ td {
 
 /* line 113, C:/Users/Angelo/Desktop/Pagina principal/assets/scss/_text-containers.scss */
 #table_text {
-  font-size: 16px;
+  font-size: 17px;
   font-family: 'raleway';
 }
 
-/* line 117, C:/Users/Angelo/Desktop/Pagina principal/assets/scss/_text-containers.scss */
+/* line 118, C:/Users/Angelo/Desktop/Pagina principal/assets/scss/_text-containers.scss */
 #table_text1 {
   font-size: 30px;
   font-family: 'prime_light';
 }
 
-/* line 123, C:/Users/Angelo/Desktop/Pagina principal/assets/scss/_text-containers.scss */
+/* line 124, C:/Users/Angelo/Desktop/Pagina principal/assets/scss/_text-containers.scss */
 #table_text2 {
   font-size: 70px;
   font-family: 'prime_light';
