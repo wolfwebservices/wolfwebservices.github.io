@@ -1,261 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" ng-app="wolfwebservices">
 
-<head>
-    <meta charset="utf-8">
-    <link rel="icon" href="assets/css/wolf.png" type="image/x-icon">
-    <link rel="stylesheet" href="assets/css/index.css" charset="utf-8">
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <title>Wolf Web Services</title>
-    <link href="assets/css/Prime Light.otf" rel="stylesheet">
-    <meta name="google-site-verification" content="RmLUNxUpmZrOE_22iEAGTuEGH8AAsjVm4aXeT5Lc49k" />
-    <meta name="description" content="Wolf Web Services es una empresa que crea páginas web profesionales para empresas en general , proporcionando a la vez un servicio de hosting para almacenar las páginas en un servidor,vectorización de logotipo , el registro de un dominio personalizado y correos electronicos personalizados.">
-</head>
+  <head>
+<title>Wolf Web Services</title>
+<!--_________________META________________________________________________ -->
+<meta name="description" content="Wolf Web Services es una empresa que crea páginas web profesionales para empresas en general , proporcionando a la vez un servicio de hosting para almacenar las páginas en un servidor,vectorización de logotipo , el registro de un dominio personalizado y correos electronicos personalizados.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--_______________LIBRARIES______________________________________________ -->
+<link rel="stylesheet" href="assets/libraries/foundation.css">
+<script src="assets/libraries/foundation.min.js" charset="utf-8"></script>
+<script src="assets/libraries/jquery-3.1.1.min.js" charset="utf-8"></script>
+<link rel="stylesheet" href="assets/libraries/animate.css">
+<!--_______________PERSONAL FILES______________________________________________ -->
+<link rel="stylesheet" href="assets/css/index.css" charset="utf-8">
+<link rel="icon" href="assets/css/wolf.png" type="image/x-icon">
+  </head>
+<!--_________BUTTONS AND NG VIEW SECTION_____________________________________ -->
+  <body>
 
+
+    <div>
+		<div>
 <div id="navigation_bar" class="bounceInDown">
-    <button id="inicio">Inicio</button>
-    <button id="acerca">Acerca de Wolf</button>
-    <button id="planes">Planes</button>
-    <button id="contacto">Contáctanos</button>
-    <button id="wolf_text">Wolf Web Services</button>
-</div>
-
-<script>
-    $("#acerca").click(function() {
-        $('html, body').animate({
-            scrollTop: $("#container_3").offset().top
-        }, 500);
-    });
-
-    $("#inicio").click(function() {
-        $('html, body').animate({
-            scrollTop: $("body").offset().top
-        }, 500);
-    });
-
-
-    $("#planes").click(function() {
-        $('html, body').animate({
-            scrollTop: $("#table_text2").offset().top
-        }, 500);
-    });
-
-    $("#contacto").click(function() {
-        $('html, body').animate({
-            scrollTop: $("#container_6").offset().top
-        }, 500);
-    });
-</script>
-
-<div id="container_1" class="bounceInLeft"></div>
-
-<div id="container_2" class="bounceInRight">
-    Wolf Web Services
+<a href="#inicio" id="transparent">  <button id="inicio">Inicio</button> </a>
+<a href="#acerca" id="transparent"> <button id="acerca">Acerca de Wolf</button> </a>
+<a href="#planes" id="transparent"> <button id="planes">Planes</button>      </a>
+<a href="#portafolio" id="transparent"> <button id="portafolio">Portafolio</button></a>
+<a href="#contactanos" id="transparent"> <button id="contacto">Contáctanos</button></a>
+<button id="wolf_text">Wolf Web Services</button>
 </div>
 
 
-<div id="container_3" class="bounceInUp">
-    Páginas web profesionales para tu empresa
+<div id="mobile_bar">
+<button id="menu_mobile_bar" type="button" onClick="openNav()">☰ Menu</button>
+<div class="button_mobile_container">
+<div class="row">
+<a href="#inicio"> <button class="button_mobile  columns">Inicio</button></a>
+</div>
+<div class="row">
+<a href="#acerca"> <button class="button_mobile  columns">Acerca de Wolf</button></a>
+</div>
+<div class="row">
+<a href="#planes"> <button class="button_mobile columns">Planes</button></a>
+</div>
+<div class="row">
+<a href="#portafolio"> <button class="button_mobile columns">Portafolio</button></a>
+</div>
+<div class="row">
+<a href="#contactanos"> <button class="button_mobile columns">Contáctanos</button></a>
+</div>
+</div>
 </div>
 
-<div id="container_4">
-    <h1>Acerca de Wolf</h1>
-    <p>
-        Wolf Web Services es una empresa que crea páginas web profesionales para empresas en general , proporcionando a la vez un servicio de hosting para almacenar las páginas en un servidor,vectorización de logotipo , el registro de un dominio personalizado
-        y correos electronicos personalizados.
-
-    </p>
+<div class="ng" ng-view ></div>
+		</div>
+</div>
 </div>
 
 
-<script>
-    $(function() {
-        $('table').css({
-            'position': 'absolute',
-            'left': '50%',
-            'margin-left': -$('table').outerWidth() / 2
-        });
-    });
-</script>
-<div id="top_planes">
-    <br>
-</div>
-
-<div id="container_5">
-    <h1 id="table_text2">Planes</h1>
-    <h1 id="top_planes">Planes</h1>
-    <table>
-        <tr>
-            <td id="gray">
-                <h2 id="table_text1">Básico</h2>
-            </td>
-            <td id="gray">
-                <h2 id="table_text1">Premium</h2>
-            </td>
-            <td id="gray">
-                <h2 id="table_text1">Ultimate</h2>
-            </td>
-
-        </tr>
-
-        <!--_______________________________-->
-        <tr>
-            <td id="whitesmoke">
-                <p id="precio1">$4000</p>
-            </td>
-            <td id="whitesmoke">
-                <p id="precio2">$5000</p>
-            </td>
-            <td id="whitesmoke">
-                <p id="precio3">$6000</p>
-            </td>
-
-        </tr>
-        <!--_______________________________-->
-        <tr>
-            <td id="gray">
-                <p id="table_text">Catálogo de productos no actualizable</p>
-            </td>
-            <td id="gray">
-                <p id="table_text">Catálogo de productos actualizable</p>
-            </td>
-            <td id="gray">
-                <p id="table_text">Catálogo de productos actualizable</p>
-            </td>
-
-        </tr>
-
-        <!--_______________________________-->
-        <tr>
-            <td id="whitesmoke">
-                <p id="table_text">Sin base de datos</p>
-            </td>
-            <td id="whitesmoke">
-                <p id="table_text">Sin base de datos</p>
-            </td>
-            <td id="whitesmoke">
-                <p id="table_text">Base de datos </p>
-            </td>
-
-        </tr>
-
-        <!--_______________________________-->
-        <tr>
 
 
-            <td id="gray">
-                <p id="table_text">Sin vectorización</p>
-            </td>
-            <td id="gray">
-                <p id="table_text">Vectorización de logotipo</p>
-            </td>
-            <td id="gray">
-                <p id="table_text">Vectorización de logotipo</p>
-            </td>
-        </tr>
-
-        <!--_______________________________-->
-        <tr>
-
-            </td>
-            <td id="whitesmoke" id="table_text">
-                <p id="table_text">5 páginas</p>
-            </td>
-            <td id="whitesmoke">
-                <p id="table_text">7 páginas</p>
-            </td>
-            <td id="whitesmoke">
-                <p id="table_text">10 páginas</p>
-            </td>
-        </tr>
-        <!--_______________________________-->
-        <tr>
-
-            <td id="gray">
-                <p id="table_text">No compatible con dispositivos moviles</p>
-            </td>
-            <td id="gray">
-                <p id="table_text">Compatible con dispositivos moviles</p>
-            </td>
-            <td id="gray">
-                <p id="table_text">Compatible con dispositivos moviles</p>
-            </td>
-
-        </tr>
-        <!--_______________________________-->
-        <tr>
-            <td id="whitesmoke">
-                <p id="table_text">Correo con el nombre de la compañia</p>
-            </td>
-            <td id="whitesmoke">
-                <p id="table_text">Correo con el nombre de la compañia</p>
-            </td>
-            <td id="whitesmoke">
-                <p id="table_text">Correo con el nombre de la compañía</p>
-            </td>
-
-        </tr>
-        <!--_______________________________-->
-        <tr>
-            <td id="gray">
-                <p id="table_text">Descuento de 300$ en el primer año del dominio</p>
-            </td>
-            <td id="gray">
-                <p id="table_text">Descuento de 300$ en el primer año del dominio</p>
-            </td>
-            <td id="gray">
-                <p id="table_text">Descuento de 300$ en el primer año del dominio</p>
-            </td>
-
-        </tr>
-        <!--_______________________________-->
-        <tr>
-            <td id="whitesmoke" id="table_text">
-                <p id="table_text">2GB de espacio en el servidor</p>
-            </td>
-            <td id="whitesmoke">
-                <p id="table_text">4GB de espacio en el servidor</p>
-            </td>
-            <td id="whitesmoke" id="table_text">
-                <p id="table_text">8GB de espacio en el servidor</p>
-            </td>
-
-        </tr>
-        <!--_______________________________-->
-        <tr>
-            <td id="gray" id="table_text">
-                <p id="table_text">Página extra $200</p>
-            </td>
-            <td id="gray">
-                <p id="table_text">Página extra $200</p>
-            </td>
-            <td id="gray">
-                <p id="table_text">Página extra $200</p>
-            </td>
-        </tr>
-    </table>
-    </body>
-
-</html>
-</div>
-
-<div id="container_6">
-    <h1>Contactános</h1>
-    <p>
-        <br> Teléfono/Whatsapp:
-        <br>Angelo Giuseppe 811-98-94-739
-        <br> Eugenio Cantú 811-07-31-164
-        <br>
-        <br> Mail: wolfwebservices.corp@gmail.com
-
-        <br> Visita nuestra <a href="https://www.facebook.com/wolfwebservices">página</a> de Facebook
-    </p>
-
-</div>
-
-<body>
+<!--End Buttons and ng view section -->
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+	<script src="assets/js/app.js"></script>
 
 </body>
-
 </html>
