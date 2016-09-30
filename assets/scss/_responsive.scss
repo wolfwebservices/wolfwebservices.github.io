@@ -1,0 +1,120 @@
+@media only screen and (max-width:1040px) {
+
+
+/*<<<<<<<<<<INICIO>>>>>>>>>>>>>>>>>*/
+.wolf_logo{
+  width: 100vw;
+  height: 70vw;
+  margin-top: 20px;
+  background-repeat: no-repeat;
+}
+
+.header1_wolf{
+font-size:17vw;
+margin-bottom: 50px;
+margin-top: 20px;
+}
+
+
+.header2_wolf{
+font-size:10vw;
+margin-bottom: 40px;
+}
+
+
+
+/*<<<<<<<<<<ACERCA DE WOLF >>>>>>>>>>>>>>>>>*/
+
+.wolf_acerca_h1{
+  font-size: 9vh;
+margin-top: 20px;
+}
+
+$phone_text: 4vh;
+
+.wolf_acerca_p{
+  text-align: left;
+font-size: $phone_text;
+margin-bottom: 30px;
+}
+.company{
+  text-align: left;
+font-size: $phone_text;
+margin-bottom: 30px;
+
+}
+.hosting{
+  text-align:left;
+  font-size: $phone_text;
+  margin-bottom: 30px;
+}
+
+.dominios{
+  text-align:left;
+  font-size:$phone_text;
+  margin-bottom: 30px;
+}
+
+.logotipos{
+  text-align:left;
+  font-size:$phone_text;
+  margin-bottom: 30px;
+}
+.unicas{
+  text-align: left;
+font-size: $phone_text;
+}
+
+$icon_size_phone: 10vh;
+.com-img{
+  width:$icon_size_phone;
+  height:$icon_size_phone;
+
+}
+.host-img{
+  width:$icon_size_phone;
+  height:$icon_size_phone;
+}
+
+.dom-img{
+  width: $icon_size_phone;
+  height:$icon_size_phone;
+}
+
+.logo-img{
+  width:$icon_size_phone;
+  height: $icon_size_phone;
+}
+
+.uni-img{
+  width:$icon_size_phone;
+  height:$icon_size_phone;
+}
+/*<<<<<<<<<<  MOBILE BAR >>>>>>>>>>>>>>>>>*/
+
+
+#navigation_bar{
+  display: none;
+}
+
+#mobile_bar{
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
