@@ -1,0 +1,91 @@
+.wolf_acerca_h1{
+  text-align: center;
+  font-size: 5vw;
+  overflow: visible;
+  margin-top:100px;
+  margin-bottom: 30px;
+font-family: 'prime_light';
+}
+
+.acerca_container{
+  height: auto;
+  width: 100%;
+}
+$normal_text: 2vw;
+
+.company{
+  text-align:left;
+  font-size: $normal_text;
+  margin-bottom: 30px;
+  font-family: 'prime_light';
+}
+
+
+.hosting{
+  text-align:left;
+  font-size: $normal_text;
+  margin-bottom: 30px;
+  font-family: 'prime_light';
+}
+
+.dominios{
+  text-align:left;
+  font-size:$normal_text;
+  margin-bottom: 30px;
+  font-family: 'prime_light';
+}
+
+.logotipos{
+  text-align:left;
+  font-size:$normal_text;
+  margin-bottom: 30px;
+  font-family: 'prime_light';
+
+}
+
+
+.unicas{
+  text-align: left;
+font-size: $normal_text;
+  font-family: 'prime_light';
+}
+
+
+$icon_size: 8vw;
+.com-img{
+  background-image: url('company.svg');
+  width:$icon_size;
+  height:$icon_size;
+  background-repeat: no-repeat;
+  position: fixed;
+}
+
+.host-img{
+  background-image: url('database.svg');
+  width:$icon_size;
+  height:$icon_size;
+  background-repeat: no-repeat;
+
+
+}
+
+.dom-img{
+  background-image: url('browser.svg');
+  width: $icon_size;
+  height:$icon_size;
+    background-repeat: no-repeat;
+}
+
+.logo-img{
+  background-image: url('logo_acerca.svg');
+  width:$icon_size;
+  height: $icon_size;
+    background-repeat: no-repeat;
+}
+
+.uni-img{
+  background-image: url('code.svg');
+  width:$icon_size;
+  height:$icon_size;
+    background-repeat: no-repeat;
+}
