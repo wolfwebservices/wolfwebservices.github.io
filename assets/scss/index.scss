@@ -5,23 +5,26 @@ $primary-color: #202020;
   padding: 0;
   margin: 0;
   overflow-x: hidden;
+
 }
 
 html{
   padding: 0;
   margin: 0;
   overflow-x: hidden;
+
 }
 
 body{
   padding: 0;
   margin: 0;
   overflow-x: hidden;
+  overflow-y:auto;
 }
 .ng{
 height:auto;
 width: 100vw;
-overflow-y:visible;
+overflow-y:scroll;
 overflow-x: hidden;
 
 }
