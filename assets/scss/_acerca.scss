@@ -6,3 +6,46 @@
 }
 
 
+$fontsize-acerca:30px;
+
+.acerca_container{
+  @include container(90%);
+  font-size: 30px;
+  font-family: 'prime_light';
+  text-align: center;
+}
+
+.cont-1{
+@include span(8 at 0 of 12);
+font-size: $fontsize-acerca;
+font-family: 'prime_light';
+  text-align: center;
+}
+
+.cont-2{
+@include span(8 at 0 of 12);
+font-size:$fontsize-acerca;
+font-family: 'prime_light';
+  text-align: center;
+}
+
+.cont-3{
+@include span(8 at 0 of 12);
+font-size: $fontsize-acerca;
+font-family: 'prime_light';
+  text-align: center;
+}
+
+.cont-4{
+@include span(8 at 0 of 12);
+font-size:$fontsize-acerca;
+font-family: 'prime_light';
+  text-align: center;
+}
+
+.cont-5{
+@include span(8 at 0 of 12);
+font-size: $fontsize-acerca;
+font-family: 'prime_light';
+  text-align: center;
+}
