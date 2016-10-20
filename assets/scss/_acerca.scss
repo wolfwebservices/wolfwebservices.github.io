@@ -1,12 +1,12 @@
 .wolf-acerca-h1{
   text-align: center;
   margin-top: 100px;
-  font-size: 6vw;
+  font-size: 9vh;
   font-family: 'prime_light';
 }
 
 
-$fontsize-acerca:30px;
+$fontsize-acerca: 4vh;
 
 .acerca_container{
   @include container(90%);
@@ -15,37 +15,127 @@ $fontsize-acerca:30px;
   text-align: center;
 }
 
+$margin-bottom: 4vh;
+$margin-top: 10vh;
+
+
 .cont-1{
-@include span(8 at 0 of 12);
+width: 100%;
+height: auto;
 font-size: $fontsize-acerca;
 font-family: 'prime_light';
-  text-align: center;
+text-align:left;
+margin-bottom: $margin-bottom;
+margin-top: $margin-top;
 }
 
 .cont-2{
-@include span(8 at 0 of 12);
+  width: 100%;
+  height: auto;
 font-size:$fontsize-acerca;
 font-family: 'prime_light';
-  text-align: center;
+  text-align:left;
+  margin-bottom: $margin-bottom;
 }
 
 .cont-3{
-@include span(8 at 0 of 12);
+width: 100%;
+height: auto;
 font-size: $fontsize-acerca;
 font-family: 'prime_light';
-  text-align: center;
+text-align:left;
+margin-bottom: $margin-bottom;
 }
 
 .cont-4{
-@include span(8 at 0 of 12);
+width: 100%;
+height: auto;
 font-size:$fontsize-acerca;
 font-family: 'prime_light';
-  text-align: center;
+text-align:left;
+margin-bottom: $margin-bottom;
 }
 
 .cont-5{
-@include span(8 at 0 of 12);
+width: 100%;
+height: auto;
 font-size: $fontsize-acerca;
 font-family: 'prime_light';
-  text-align: center;
+text-align:left;
+margin-bottom: $margin-bottom;
+}
+
+
+.text-1{
+width: 60%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.text-2{
+  width: 60%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.text-3{
+  width: 60%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.text-4{
+  width: 60%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.text-5{
+  width: 60%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+
+@media (max-width:1000px) {
+.cont-1{
+
+
+
+  .text-1{
+  width: 90%;
+
+  }
+
+  .text-2{
+    width:90%;
+
+  }
+
+  .text-3{
+    width: 90%;
+
+  }
+
+  .text-4{
+    width: 90%;
+
+  }
+
+  .text-5{
+    width: 90%;
+
+  }
+
+
+
+
+
+
 }
