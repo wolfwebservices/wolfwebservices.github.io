@@ -1,0 +1,65 @@
+.footer{
+  background-color: #202020;
+  width: 100%;
+  height:auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: 'prime_light';
+  font-size: 2.5ex;
+
+
+}
+
+.ul-1{
+  @include span(4 at 0 of 12);
+    color: #f5f5f5;
+    font-family: 'prime_light';
+}
+
+.ul-2{
+  @include span(4 at 5 of 12);
+    color: #f5f5f5;
+    font-family: 'prime_light';
+}
+
+.ul-3{
+  @include span(4 at 9 of 12);
+    color: #f5f5f5;
+    font-family: 'prime_light';
+}
+
+
+.footer-container{
+margin-top: 60px;
+margin-bottom: 60px;
+    font-family: 'prime_light';
+}
+
+
+
+@media (max-width:1000px) {
+
+  .ul-1{
+  @include span(12 of 12);
+  margin-bottom: 20px;
+  }
+
+  .ul-2{
+  @include span(12 of 12);
+    margin-bottom: 20px;
+  }
+
+  .ul-3{
+  @include span(12 of 12);
+
+  }
+
+
+
+
+
+
+
+
+}
