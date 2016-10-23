@@ -6,9 +6,9 @@
 }
 
 
-$fontsize-acerca: 2vw;
-$fontsize-little: 6vw;
-$fontsize-h1little: 15vw;
+$fontsize-acerca: 2ex;
+$fontsize-little:1.5ex;
+$fontsize-h1little: 3.5ex;
 
 .acerca_container{
   @include container(90%);
@@ -112,7 +112,7 @@ margin-right: auto;
 }
 
 .cont-1{
-font-size: $fontsize-little;
+
  }
 
   .text-1{
