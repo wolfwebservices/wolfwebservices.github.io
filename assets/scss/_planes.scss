@@ -36,6 +36,7 @@ font-size: 22px;
 .planes_container{
 @include container(90%);
 margin-top: 50px;
+height: 80vh;
 }
 
 .planes-table1{
@@ -115,5 +116,13 @@ border-style:dashed;
   height:60px;
     overflow: visible;
 }
+
+
+.planes_container{
+@include container(90%);
+margin-top: 50px;
+height: auto;
+}
+
 
 }

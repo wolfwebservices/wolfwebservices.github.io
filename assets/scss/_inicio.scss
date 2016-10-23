@@ -5,6 +5,7 @@
 
 .inicio_container{
 @include container(90%);
+height: 100vh;
 }
 
 .header1_wolf{
@@ -63,6 +64,7 @@ text-align: center;
 .header2_wolf{
   font-size: 4vh;
 }
+
 }
 
 @media (max-width:768px) {
