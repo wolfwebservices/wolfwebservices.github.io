@@ -6,7 +6,9 @@
 }
 
 
-$fontsize-acerca: 4vh;
+$fontsize-acerca: 2vw;
+$fontsize-little: 6vw;
+$fontsize-h1little: 15vw;
 
 .acerca_container{
   @include container(90%);
@@ -104,33 +106,38 @@ margin-right: auto;
 
 
 @media (max-width:1000px) {
+
+.wolf-acerca-h1{
+  font-size: $fontsize-h1little;
+}
+
 .cont-1{
-
-
+font-size: $fontsize-little;
+ }
 
   .text-1{
   width: 90%;
-
+font-size: $fontsize-little;
   }
 
   .text-2{
     width:90%;
-
+font-size: $fontsize-little;
   }
 
   .text-3{
     width: 90%;
-
+font-size: $fontsize-little;
   }
 
   .text-4{
     width: 90%;
-
+font-size: $fontsize-little;
   }
 
   .text-5{
     width: 90%;
-
+font-size: $fontsize-little;
   }
 
 
