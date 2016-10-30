@@ -7,7 +7,9 @@
   text-align: center;
   font-family: 'prime_light';
   font-size: 2.5ex;
-
+  -webkit-box-shadow: inset 0px 0px 15px #000;
+      -moz-box-shadow: inset 0px 0px 15px #000;
+      box-shadow: inset 0px 0px  15px #000;
 
 }
 
@@ -37,7 +39,9 @@ margin-bottom: 60px;
 }
 
 
-
+.footer-li{
+  padding: 5px;
+}
 @media (max-width:1000px) {
 
   .ul-1{
@@ -54,7 +58,7 @@ margin-bottom: 60px;
 
   .ul-3{
   @include span(12 of 12);
-padding: 3px;
+
   }
 
 
