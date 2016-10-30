@@ -1,0 +1,45 @@
+/*__________GLOBAL VARIABLES________________*/
+$primary-color: #202020;
+
+$susy:(
+    columns: 12,
+    gutters: 1/4,
+    math: fluid,
+    output: float,
+    gutter-position:split,
+
+);
+
+* {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+html{
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+@import "_susy.scss";
+@import "_loading.scss";
+@import "_fonts.scss";
+@import "_mobile-bar.scss";
+@import "_navigation-bar.scss";
+@import "_body.scss";
+@import "_inicio.scss";
+@import "_acerca.scss";
+@import "_planes.scss";
+@import "_portafolio.scss";
+@import "_footer.scss";
+@import "_contactanos.scss";
+@import "_scrollbar.scss";
+@import "_responsive.scss";

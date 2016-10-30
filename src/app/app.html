@@ -1,0 +1,51 @@
+<div>
+<div>
+<div id="navigation_bar" class="bounceInDown">
+<a [router-link]="['/Inicio']" id="transparent">  <button id="inicio">Inicio</button> </a>
+<a [router-link]="['/Acerca']" id="transparent"> <button id="acerca">Acerca de Wolf</button> </a>
+<a [router-link]="['/Planes']" id="transparent"> <button id="planes">Planes</button>      </a>
+<a [router-link]="['/Portafolio']" id="transparent"> <button id="portafolio">Portafolio</button></a>
+<a [router-link]="['/Contactanos']" id="transparent"> <button id="contacto">Contáctanos</button></a>
+<button id="wolf_text">Wolf Web Services</button>
+</div>
+
+
+<div id="mobile_bar">
+<button id="menu_mobile_bar" type="button" onClick="openNav()">☰ Menu</button>
+<div class="button_mobile_container">
+<div class="">
+<a [router-link]="['/Inicio']"> <button class="button_mobile">Inicio</button></a>
+</div>
+<div class="">
+<a [router-link]="['/Acerca']"> <button class="button_mobile">Acerca de Wolf</button></a>
+</div>
+<div class="">
+<a [router-link]="['/Planes']"> <button class="button_mobile">Planes</button></a>
+</div>
+<div class="">
+<a [router-link]="['/Portafolio']"> <button class="button_mobile">Portafolio</button></a>
+</div>
+<div class="">
+<a [router-link]="['/Contactanos']"> <button class="button_mobile">Contáctanos</button></a>
+</div>
+<br>
+</div>
+</div>
+
+<router-outlet></router-outlet>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- The router will put the content here, right after the outlet -->
