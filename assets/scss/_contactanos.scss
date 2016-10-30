@@ -28,11 +28,14 @@ margin-top: 100px;
   font-family: 'prime_light';
   background-color: $background-color-c;
     @include span(6 of 12 at 0);
+    
+        margin-bottom: 10px;
+        margin-top: 10px;
 }
 
 .phones-c{
-  margin-top: 50px;
   margin-bottom: 50px;
+  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
   color: $text-color;
@@ -41,9 +44,25 @@ margin-top: 100px;
 
 
 .h1-telefono{
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  background-color: #202020;
+  width: 100%;
+  color: #f5f5f5;
+  text-align: center;
 }
 
+.nombre-tel{
+  font-family: 'prime_light';
+  color:#202020;
+  font-size: 200%;
+}
+
+
+.tel{
+  font-family: 'prime_light';
+  color:#202020;
+  font-size: 200%;
+}
 
 
 /*_______________ E-MAIL SECTION_______________ */
@@ -53,12 +72,17 @@ margin-top: 100px;
   font-family: 'prime_light';
   background-color: $background-color-c;
   @include span(6 of 12 at 7);
+  -webkit-box-shadow: 0 0 5px 2px rgba(32,32,32,0.8);
+      -moz-box-shadow: 0 0 5px 2px rgba(32,32,32,0.8);
+      box-shadow: 0 0 5px 2px rgba(32,32,32,0.8);
+      margin-bottom: 10px;
+      margin-top: 10px;
 
 }
 
 .mail-c{
-  margin-top: 50px;
   margin-bottom: 50px;
+  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
   color: $text-color;
@@ -66,6 +90,18 @@ margin-top: 100px;
 
 }
 
+.mail-h1{
+  background-color: #202020;
+  width: 100%;
+  margin-bottom: 10px;
+  color: #f5f5f5;
+  text-align: center;
+}
+
+
+.e-mail{
+  font-size: 200%;
+}
 
 /*_______________ FACEBOOK SECTION_______________ */
 
@@ -75,12 +111,17 @@ margin-top: 100px;
   font-family: 'prime_light';
   background-color: $background-color-c;
   @include span(6 of 12 at 0);
+  -webkit-box-shadow: 0 0 5px 2px rgba(32,32,32,0.8);
+      -moz-box-shadow: 0 0 5px 2px rgba(32,32,32,0.8);
+      box-shadow: 0 0 5px 2px rgba(32,32,32,0.8);
+      margin-bottom: 10px;
+      margin-top: 10px;
 }
 
 
 .facebook-c{
-  margin-top: 50px;
   margin-bottom: 50px;
+  margin-top:50px;
   margin-left: auto;
   margin-right: auto;
   color: $text-color;
@@ -88,10 +129,13 @@ margin-top: 100px;
 }
 .facebook-h1{
   margin-bottom: 10px;
+  background-color: #202020;
+  width: 100%;
+  color: #f5f5f5;
+  text-align: center;
 }
 .facebook-img{
-
-  width:7vh;
+  width:20ex;
   height:auto;
 }
 
@@ -104,15 +148,27 @@ margin-top: 100px;
   font-family: 'prime_light';
   background-color: $background-color-c;
   @include span(6 of 12 at 7);
+  -webkit-box-shadow: 0 0 5px 2px rgba(32,32,32,0.8);
+      -moz-box-shadow: 0 0 5px 2px rgba(32,32,32,0.8);
+      box-shadow: 0 0 5px 2px rgba(32,32,32,0.8);
+      margin-bottom: 10px;
+      margin-top: 10px;
 }
 
 
 .form-c{
-  margin-top: 50px;
   margin-bottom: 50px;
+  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
   color: $text-color;
+  text-align: center;
+}
+
+.form-h1{
+  background-color: #202020;
+  width: 100%;
+  color: #f5f5f5;
   text-align: center;
 }
 
@@ -123,12 +179,79 @@ margin-top: 100px;
   border-style:none;
   color:#f5f5f5;
   height: 30px;
-  width: 300px;
   font-family: 'prime_light';
   font-size: 16px;
-  text-align: center;
+  text-align:left;
+  margin: auto;
   /*--BORDER--*/
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
+text-align: center;
+  @include span (12 of 12 at 0);
+  -webkit-box-shadow: inset 0 0 5px 2px rgba(0,0,0,0.2);
+      -moz-box-shadow: inset 0 0 5px 2px rgba(0,0,0,0.2);
+      box-shadow: inset 0 0 5px 2px rgba(0,0,0,0.2);
+
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(245,245,245,0.3);
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: rgba(245,245,245,0.3);
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: rgba(245,245,245,0.3);
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: rgba(245,245,245,0.3);
+}
+
+
+.label{
+    @include span (12 of 12 at 0);
+}
+
+.message{
+  height: 30ex;
+  resize: vertical;
+}
+
+
+
+
+
+/*____________________ RESPONSIVE SHIT___________________________*/
+@media (max-width:1000px) {
+.phones{
+  @include span (12 of 12 at 0);
+}
+
+.mail{
+    @include span (12 of 12 at 0);
+}
+
+.facebook{
+    @include span (12 of 12 at 0);
+}
+
+
+.form{
+    @include span (12 of 12 at 0);
+}
+
+
+.inputs{
+width: 98%;
+}
+
+.row{
+  margin-bottom: 5px;
+}
+
+.e-mail{
+  font-size: 120%;
+}
+
 }
