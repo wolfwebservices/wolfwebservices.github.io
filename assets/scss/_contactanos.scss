@@ -3,6 +3,7 @@
   font-family: 'prime_light';
   margin-top: 100px;
   text-align: center;
+    padding: 3px;
 
 }
 $text-color:#202020;
@@ -28,7 +29,9 @@ margin-top: 100px;
   font-family: 'prime_light';
   background-color: $background-color-c;
     @include span(6 of 12 at 0);
-    
+    -webkit-box-shadow: 0 0 5px 2px rgba(32,32,32,0.8);
+        -moz-box-shadow: 0 0 5px 2px rgba(32,32,32,0.8);
+        box-shadow: 0 0 5px 2px rgba(32,32,32,0.8);
         margin-bottom: 10px;
         margin-top: 10px;
 }
@@ -49,6 +52,7 @@ margin-top: 100px;
   width: 100%;
   color: #f5f5f5;
   text-align: center;
+    padding: 3px;
 }
 
 .nombre-tel{
@@ -96,6 +100,7 @@ margin-top: 100px;
   margin-bottom: 10px;
   color: #f5f5f5;
   text-align: center;
+    padding: 3px;
 }
 
 
@@ -133,6 +138,7 @@ margin-top: 100px;
   width: 100%;
   color: #f5f5f5;
   text-align: center;
+  padding: 3px;
 }
 .facebook-img{
   width:20ex;
@@ -170,6 +176,7 @@ margin-top: 100px;
   width: 100%;
   color: #f5f5f5;
   text-align: center;
+    padding: 3px;
 }
 
 
@@ -224,6 +231,15 @@ text-align: center;
 
 /*____________________ RESPONSIVE SHIT___________________________*/
 @media (max-width:1000px) {
+
+.h1-contactanos{
+  font-size: 7ex;
+}
+
+.contactanos-container{
+  margin-top: 50px;
+}
+
 .phones{
   @include span (12 of 12 at 0);
 }
@@ -239,6 +255,7 @@ text-align: center;
 
 .form{
     @include span (12 of 12 at 0);
+    margin-bottom: 100px;
 }
 
 

@@ -43,16 +43,18 @@ margin-bottom: 60px;
   .ul-1{
   @include span(12 of 12);
   margin-bottom: 20px;
+  padding: 3px;
   }
 
   .ul-2{
   @include span(12 of 12);
     margin-bottom: 20px;
+    padding: 3px;
   }
 
   .ul-3{
   @include span(12 of 12);
-
+padding: 3px;
   }
 
 
