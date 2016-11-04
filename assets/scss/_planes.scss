@@ -99,6 +99,7 @@ border-style:dashed;
   margin-top: 100px;
   @include span (12 of 12 at 0);
   margin-bottom: 100px;
+
 }
 
 
@@ -109,6 +110,8 @@ font-size: 3.5ex;
 width: 90%;
 height: auto;
 background-color: #C1C1C1;
+padding-left: 5%;
+padding-right: 5%;
 margin: auto;
 }
 
@@ -116,7 +119,6 @@ margin: auto;
 .planes-list{
   list-style-type: square;
   list-style-position: inside;
-
 }
 
 
