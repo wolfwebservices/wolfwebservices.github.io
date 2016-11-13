@@ -46,6 +46,7 @@ margin-bottom: 10px;
 .portafolio_container{
   @include container(90%);
   margin-top: 50px;
+  height:100vh;
 }
 
 .thumbnail-text{
@@ -56,7 +57,7 @@ margin-bottom: 10px;
 }
 
 .row{
-  margin-bottom:70px;
+  /*margin-bottom:70px; */
 }
 
 
@@ -87,6 +88,11 @@ margin-bottom: 10px;
   @include span (12 of 12 at 0);
   margin-bottom: 50px;
   }
+
+.row{
+  margin-bottom:70px;
+}
+
 
   .img-page{
 width: 100%;
