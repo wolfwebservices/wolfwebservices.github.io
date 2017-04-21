@@ -1,0 +1,50 @@
+
+//Border radius mixin
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+//.box { @include border-radius(10px); }
+
+
+@mixin button {
+  border: none;
+  outline: none;
+  font-family: arial;
+  color: white;
+  font-size: 18px;
+}
+
+@mixin input {
+  border: none;
+  outline: none;
+  font-family: arial;
+  color: white;
+}
+
+
+@mixin overflow-hidden {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+
+@mixin backimg {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+@mixin margin-both-sides($margin) {
+  margin-left: $margin;
+  margin-right: $margin;
+}
+
+@mixin margin-both-tb($margin2) {
+  margin-top: $margin2;
+  margin-bottom: $margin2;
+}

@@ -1,0 +1,121 @@
+@media only screen and (max-width: 1000px) {
+
+//___________Nav bar_____________
+.nav-bar-left{
+display: none;
+}
+
+.nav-bar-bottom{
+display: block;
+}
+
+.button-img-bottom{
+height:3.5vw;
+width:3.5vw;
+@include margin-both-sides(8.25vw);
+}
+
+//_________views_____________
+
+.view{
+width: 100vw;
+height: 91%;
+float: none;
+margin-left: 0;
+top: 0;
+display: none;
+}
+
+//________Inicio___________
+
+.inicio-logo{
+  height: 50vw;
+  width: 50vw;
+  @include margin-both-sides(25vw);
+
+}
+
+.inicio-h1{
+    font-size: 17vw;
+}
+
+.inicio-h3{
+  font-size: 5vw;
+
+}
+
+//________Acerca___________
+
+
+.acerca-h1{
+  font-size: 11vw;
+  position: fixed;
+  top: 0;
+}
+
+
+.circles{
+  margin-top:12vh;
+  width: 66vw;
+  @include margin-both-sides(17vw);
+  height: 20vw;
+}
+
+
+.circle{
+  width: 20vw;
+  height: 20vw;
+  @include margin-both-sides(1vw);
+}
+
+.acerca-texto-1{
+  width: 90%;
+  @include margin-both-sides(5%);
+    font-size: 5vw;
+}
+
+.acerca-texto-2{
+  width: 90%;
+  @include margin-both-sides(5%);
+  font-size: 5vw;
+}
+
+
+.devices-img{
+  width: 90vw;
+  height: 50vw;
+  @include margin-both-sides(5%);
+}
+
+
+//Portafolio
+
+.portafolio-h1{
+  font-size: 11vw;
+  position: fixed;
+  top: 0;
+}
+
+//contacto
+
+
+.contacto-h1{
+  font-size: 11vw;
+  position: fixed;
+  top: 0;
+}
+
+
+//planes
+
+
+.planes-h1{
+  font-size: 11vw;
+  position: fixed;
+  top: 0;
+}
+
+
+
+
+ }

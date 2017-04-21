@@ -1,0 +1,14 @@
+.view{
+width: 93vw;
+height: 100vh;
+margin-left: 7vw;
+display: none;
+position:fixed;
+overflow-y: scroll;
+overflow-x: hidden;
+}
+
+
+.active-button{
+  background-color: rgba(10,10,10,0.5);
+}
