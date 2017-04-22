@@ -74,14 +74,15 @@ border-top-left-radius: 5px;
 border-top-right-radius: 5px;
 font-family: "trench";
 
+
 }
 
 
 .cell{
 width: 80%;
-font-size: 2vw;
+font-size: 1.6vw;
 @include border-radius(5px);
-font-family: "trench";
+font-family:'Roboto', sans-serif;
 
 }
 
