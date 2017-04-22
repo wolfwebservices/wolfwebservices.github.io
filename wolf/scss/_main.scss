@@ -1,15 +1,23 @@
 *{
   padding: 0;
   margin: 0;
-    font-family:"primelight";
 }
 
 @font-face {
     font-family:"primelight";
-    src: url("trench100free.ttf");
+    src: url("primelight.otf");
 }
 
 @font-face {
     font-family:"trench";
     src: url("trench100free.ttf");
+}
+
+
+h1{
+  font-family: "trench";
+}
+
+label{
+  font-family: "primelight";
 }
