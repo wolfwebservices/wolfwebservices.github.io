@@ -118,4 +118,66 @@ display: none;
 
 
 
+.table-1{
+  width: 80%;
+  @include margin-both-sides(10%);
+  margin-bottom: 10vh;
+}
+
+.table-2{
+  width: 80%;
+  @include margin-both-sides(10%);
+  margin-bottom: 10vh;
+}
+
+.table-3{
+  width: 80%;
+  @include margin-both-sides(10%);
+  margin-bottom: 10vh;
+}
+
+.row{
+  height: 7vh;
+}
+
+.header{
+  font-size: 15vw;
+}
+
+.price{
+  font-size: 20vw;
+}
+
+.cell{
+  font-size: 6vw;
+}
+
+.storage{
+  background-size: 6vw 6vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  }
