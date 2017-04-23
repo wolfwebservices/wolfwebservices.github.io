@@ -83,6 +83,9 @@ width: 80%;
 font-size: 1.6vw;
 @include border-radius(5px);
 font-family:'Roboto', sans-serif;
+text-align: left;
+padding-top: 10px;
+padding-bottom: 10px;
 
 }
 
@@ -120,4 +123,33 @@ background-color: #373277;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 2vw 2vw;
+}
+
+
+.domain{
+  background-image: url("../img/domain.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 2vw 2vw;
+}
+
+.phone{
+  background-image: url("../img/phone.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 2vw 2vw;
+}
+
+.catalog{
+  background-image: url("../img/catalog.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 2vw 2vw;
+}
+
+.año{
+  color: white;
+  font-family: "trench";
+  font-size: 3vw;
+  text-align: center;
 }
