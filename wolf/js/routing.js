@@ -1,6 +1,9 @@
 //>>>>>>>>>     Start of routing system       <<<<<<<<<<<<<<<<<<<<
 function start(){
-url = url.replace(/^http:\/\//i, 'https://');
+
+  if (location.protocol == 'http:'){
+    location.href = location.href.replace(/^http:/, 'https:');
+  }
 
 var frag = window.location.href.split("#");
 if (frag.length == 1) {
