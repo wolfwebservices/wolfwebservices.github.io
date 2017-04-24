@@ -1,5 +1,28 @@
 //>>>>>>>>>     Start of routing system       <<<<<<<<<<<<<<<<<<<<
 function start(){
+
+if(window.location.href = "http://wolfwebservices.com") {
+window.location.replace("https://wolfwebservices.com");
+}
+else{
+if(window.location.href = "http://wolfwebservices.com/#acerca") {
+window.location.replace("https://wolfwebservices.com/#acerca");
+}
+if(window.location.href = "http://wolfwebservices.com/#planes") {
+window.location.replace("https://wolfwebservices.com/#planes");
+}
+if(window.location.href = "http://wolfwebservices.com/#inicio") {
+window.location.replace("https://wolfwebservices.com/#inicio");
+}
+if(window.location.href = "http://wolfwebservices.com/#portafolio") {
+window.location.replace("https://wolfwebservices.com/#portafolio");
+}
+if(window.location.href = "http://wolfwebservices.com/#contacto") {
+window.location.replace("https://wolfwebservices.com/#contacto");
+}
+}
+
+
 var frag = window.location.href.split("#");
 if (frag.length == 1) {
 inicio(); //no hash action
