@@ -88,34 +88,14 @@ display: none;
 }
 
 
-//Portafolio
 
-.portafolio-h1{
-  font-size: 11vw;
-  position: fixed;
-  top: 0;
-}
-
-//contacto
-
-
-.contacto-h1{
-  font-size: 11vw;
-  position: fixed;
-  top: 0;
-}
-
-
-//planes
-
+//________Planes___________
 
 .planes-h1{
   font-size: 11vw;
   position: fixed;
   top: 0;
 }
-
-
 
 
 .table-1{
@@ -131,6 +111,12 @@ display: none;
 }
 
 .table-3{
+  width: 80%;
+  @include margin-both-sides(10%);
+  margin-bottom: 10vh;
+}
+
+.table-4{
   width: 80%;
   @include margin-both-sides(10%);
   margin-bottom: 10vh;
@@ -164,13 +150,82 @@ background-size: 6vw 6vw;
 .catalog{
   background-size: 6vw 6vw;
 }
-
+.support{
+  background-size: 6vw 6vw;
+}
+.email{
+  background-size: 6vw 6vw;
+}
 
 .año{
   font-size: 10vw;
 }
 
+.wolf-logo{
+  background-size: 6vw 6vw;
+}
 
+.fonts{
+  background-size: 6vw 6vw;
+}
+
+.case{
+  background-size: 6vw 6vw;
+}
+
+.options{
+  background-size: 6vw 6vw;
+}
+
+
+/*__________Portafolio______________*/
+
+.portafolio-h1{
+  font-size: 11vw;
+  position: fixed;
+  top: 0;
+}
+
+.h-demo{
+  font-size: 5vw;
+}
+
+.row-p{
+height: 15vh;
+}
+
+.t-demo{
+width: 40%;
+margin-top: 0vh;
+}
+
+.t1{
+@include margin-both-sides(6.66667%);
+margin-top: 10vh;
+}
+
+.t2{
+margin-top: 10vh;
+@include margin-both-sides(0%);
+}
+
+.t3{
+  @include margin-both-sides(6.66667%);
+  margin-top: 5vh;
+}
+
+.t4{
+  margin-top: 5vh;
+  @include margin-both-sides(0%);
+}
+
+/*________________Contacto___________________*/
+
+.contacto-h1{
+  font-size: 11vw;
+  position: fixed;
+  top: 0;
+}
 
 
 

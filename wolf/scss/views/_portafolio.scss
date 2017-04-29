@@ -8,6 +8,71 @@
   width: 100%;
   text-align: center;
   background-color: #202020;
-  position: fixed;
-  top: 0;
 }
+
+.h-demo{
+  background-color:#303030;
+  width: 100%;
+  color: white;
+  font-size: 2vw;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-family: "trench";
+
+}
+
+.demo-1{
+background-color: #76363F;
+}
+
+
+.row-p{
+  height: 25vh;
+  width: 100%;
+}
+.row-h{
+  height: 5vh;
+  width: 100%;
+}
+
+.img-d-1{
+  background-image: url("../img/demo1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+
+.thumbnail{
+  width: 100%;
+  height:100%;
+}
+
+
+
+.t-demo{
+padding: 0;
+margin:0;
+width: 25%;
+text-align: center;
+float: left;
+margin-top: 10vh;
+@include border-radius(5px);
+}
+
+.t1{
+  @include margin-both-sides(6.25%);
+}
+
+.t2{
+//Leave empty
+}
+
+.t3{
+  @include margin-both-sides(6.25%);
+}
+
+.t4{
+  @include margin-both-sides(6.25%);
+  margin-top: 5vh;
+  }

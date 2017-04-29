@@ -3,7 +3,7 @@ function start(){
 
   if (location.protocol == 'http:'){
     location.href = location.href.replace(/^http:/, 'https:');
-  }
+}
 
 var frag = window.location.href.split("#");
 if (frag.length == 1) {
