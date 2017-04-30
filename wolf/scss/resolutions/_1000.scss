@@ -227,13 +227,48 @@ margin-top: 10vh;
   top: 0;
 }
 
+.table-con{
+  width: 90vw;
+  @include margin-both-sides(5vw);
+}
+
+.facebook-con{
+  margin-top: 5vh;
+}
+
+.phone-con{
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+}
 
 
 
 
+.mail-td{
+  font-size: 5.5vw;
+}
 
+.facebook-img{
+height: 20vw;
+width: 20vw;
+@include margin-both-sides(35vw);
+}
 
+.phone-td{
+font-size: 5.5vw;
+}
 
+.mail-th{
+  font-size: 10vw;
+}
+
+.facebook-th{
+  font-size: 10vw;
+}
+
+.phone-th{
+  font-size: 10vw;
+}
 
 
 
