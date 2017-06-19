@@ -1,5 +1,4 @@
 #v-contacto{
-//background-color:yellow;
 }
 
 .contacto-h1{
@@ -31,6 +30,9 @@ margin-top: 10vh;
 .mail-con{
   float: left;
 margin-left: 4.3333vw;
+
+-moz-animation:bounce .40s linear;
+-webkit-animation:bounce .40s linear;
 }
 
 .mail-th{
@@ -48,6 +50,8 @@ background-color: #353535;
 .facebook-con{
   float: right;
   margin-right: 4.3333vw;
+  -moz-animation:bounce .40s linear;
+  -webkit-animation:bounce .40s linear;
 
 }
 
@@ -77,6 +81,8 @@ background-color: #353535;
   float: left;
   margin-left: 4.3333vw;
   margin-top: 10vh;
+  -moz-animation:bounce .40s linear;
+  -webkit-animation:bounce .40s linear; 
 }
 
 .phone-th{

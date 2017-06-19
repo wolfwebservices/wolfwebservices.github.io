@@ -1,5 +1,4 @@
 #v-inicio{
-//background-color:red;
 }
 
 
@@ -12,6 +11,8 @@
   background-size: contain;
   background-repeat: no-repeat;
   @include margin-both-sides(31.5vw);
+  -moz-animation:bounce .70s linear;
+  -webkit-animation:bounce .70s linear;
 }
 
 .inicio-h1{
