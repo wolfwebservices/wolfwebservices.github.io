@@ -1,0 +1,29 @@
+.inicio-logo{
+  //background-color: blue;
+  height: 30vw;
+  width: 30vw;
+  background-image: url("../img/wolf-transparent.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  @include both(35vw);
+  -moz-animation:bounce .70s linear;
+  -webkit-animation:bounce .70s linear;
+  margin-top: 3%;
+}
+
+.inicio-h1{
+  text-align: center;
+  font-family: arial;
+  font-size: 9vw;
+  font-family:"trench";
+  color: #202020;
+}
+
+.inicio-h3{
+  text-align: center;
+  font-family: arial;
+  font-size: 3vw;
+  font-family:"trench";
+  color: #202020;
+}

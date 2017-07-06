@@ -1,530 +1,74 @@
 <!DOCTYPE html>
 <html>
-      <head>
-        <!--__________Meta data_____________________-->
-        <meta charset="utf-8">
-        <meta name="description" content="Wolf Web Services es un servicio de creación de aplicaciones web, caracterizado por no usar plantillas, haciendo que su aplicación sea tan única como tu negocio">
-        <meta name="keywords" content="Wolf,Web,Sevices,Páginas,Web,Aplicación,unica,negocio">
-        <meta name="author" content="Wolf Web Services">
-        <meta property="og:url"                content="https://wolfwebservices.com" />
-        <meta property="og:type"               content="Website" />
-        <meta property="og:title"              content="Wolf Web Services" />
-        <meta property="og:description"        content="Wolf Web Services es un servicio de creación de aplicaciones web, caracterizado por no usar plantillas, haciendo que su aplicación sea tan única como tu negocio" />
-        <meta property="og:image"              content="https://wolfwebservices.com/wolf/img/wolf-transparent.png" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="theme-color" content="#202020" />
-        <meta name="msapplication-navbutton-color" content="#202020">
-        <meta name="apple-mobile-web-app-status-bar-style" content="#202020">
-        <meta name="mobile-web-app-capable" content="yes">
-        <!--__________Icon_____________________-->
-        <link rel='shortcut icon' type='image/x-icon' href='/wolf/img/wolf-white.png' />
-        <!--__________Title_____________________-->
-        <title>Wolf Web Services</title>
-        <!--__________Links_____________________-->
-        <link rel="stylesheet" href="wolf/css/index.css">
-        <!--__________Scripts_____________________-->
-        <script src="wolf/js/jquery-3.2.1.min.js" charset="utf-8"></script>
-        <script src="wolf/js/center.js" charset="utf-8"></script>
-        <script src="wolf/js/routing-functions.js" charset="utf-8"></script>
-        <script src="wolf/js/routing.js" charset="utf-8"></script>
-        <!-- Google Tag Manager -->
-      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-MS44WQ8');</script>
-      <!-- End Google Tag Manager -->
-      </head>
-
-
-<body onload="start()">
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MS44WQ8"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-<!--________________________TOP NAV BAR _______________________________-->
-<div class="nav-bar-left">
-<div class="buttons-c">
-
-
-
-  <button type="button" name="button" class="button-nav" id="inicio-button" onclick="window.location.hash='inicio'">
-    <div class="button-img" id="inicio-img"></div>
-    <div class="button-lbl">Inicio</div>
-  </button>
-
-
-
-  <button type="button" name="button" class="button-nav" id="acerca-button" onclick="window.location.hash='acerca'">
-    <div class="button-img" id="acerca-img"></div>
-    <div class="button-lbl">Acerca</div>
-  </button>
-
-
-
-  <button type="button" name="button" class="button-nav" id="planes-button" onclick="window.location.hash='planes'">
-    <div class="button-img" id="planes-img"></div>
-    <div class="button-lbl">Planes</div>
-  </button>
-
-
-
-  <button type="button" name="button" class="button-nav" id="portafolio-button" onclick="window.location.hash='portafolio'">
-    <div class="button-img" id="portafolio-img"></div>
-    <div class="button-lbl">Portafolio</div>
-  </button>
-
-
-
-  <button type="button" name="button" class="button-nav" id="contacto-button" onclick="window.location.hash='contacto'">
-    <div class="button-img" id="contacto-img"></div>
-    <div class="button-lbl">Contacto</div>
-  </button>
-
-
-</div>
-
-</div>
-
-<!--________________________BOTTOM NAV BAR _______________________________-->
-
-<div class="nav-bar-bottom">
-
-
-
-  <button type="button" name="button" class="button-nav-bottom" id="inicio-button-bottom" onclick="window.location.hash='inicio'">
-    <div class="button-img-bottom" id="inicio-img"></div>
-    <div class="button-lbl-bottom">Inicio</div>
-  </button>
-
-
-
-  <button type="button" name="button" class="button-nav-bottom" id="acerca-button-bottom" onclick="window.location.hash='acerca'">
-    <div class="button-img-bottom" id="acerca-img"></div>
-    <div class="button-lbl-bottom">Acerca</div>
-  </button>
-
-
-
-  <button type="button" name="button" class="button-nav-bottom" id="planes-button-bottom" onclick="window.location.hash='planes'">
-    <div class="button-img-bottom" id="planes-img"></div>
-    <div class="button-lbl-bottom">Planes</div>
-  </button>
-
-
-
-  <button type="button" name="button" class="button-nav-bottom" id="portafolio-button-bottom" onclick="window.location.hash='portafolio'">
-    <div class="button-img-bottom" id="portafolio-img"></div>
-    <div class="button-lbl-bottom">Portafolio</div>
-  </button>
-
-
-
-  <button type="button" name="button" class="button-nav-bottom" id="contacto-button-bottom" onclick="window.location.hash='contacto'">
-    <div class="button-img-bottom" id="contacto-img"></div>
-    <div class="button-lbl-bottom">Contacto</div>
-  </button>
-
-
-
-
-</div>
-
-
-<!--_____________INICIO____________________-->
-
-<div class="view" id="v-inicio">
-
-<div class="inicio-c">
-  <div class="inicio-logo"></div>
-
-  <h1 class="inicio-h1">Wolf Web Services</h1>
-
-  <h3 class="inicio-h3">Aplicaciones web únicas como tu negocio</h3>
-</div>
-
-
-
-
-</div>
-
-<!--_____________ACERCA____________________-->
-
-<div class="view" id="v-acerca">
-
-<div class="acerca-c">
-<h1 class="acerca-h1">Acerca de nosotros</h1>
-
-<br>
-<br>
-<br>
-
-
-<h2 class="acerca-h2">Aplicaciones web</h2>
-<p class="acerca-texto-2">
-Creamos aplicaciones web no sitios web comunes. La diferencia radica en que nuestras aplicaciones tienen una interacción similar a una aplicación de télefono nativa.
-</p>
-
-<br>
-<br>
-<h2 class="acerca-h2">Autenticidad</h2>
-<p class="acerca-texto-1">
-No usamos plantillas, por lo que aseguramos que tu aplicación web sea tan única como tu negocio.
-</p>
-
-<br>
-<br>
-
-<h2 class="acerca-h2">Garantía de satisfacción</h2>
-<p class="acerca-texto-3">
-Si no estas satisfecho con alguna parte de tu aplicación web en el rango de dos semanas después de la entrega, podemos relizar cambios hasta que esté usted satisfecho.
-</p>
-
-<br>
-<br>
-
-<h2 class="acerca-h2">Multiples dispositivos</h2>
-<p class="acerca-texto-3">
-Usamos diseño responsivo para crear nuestras aplicaciones web, por lo tanto estas se adaptan a cualquier dispositivo, ya sea tablet, smartphone, laptop, o escritorio.
-</p>
-
-<br>
-<br>
-
-<h2 class="acerca-h2">Logotipos</h2>
-<p class="acerca-texto-3">
-Si no tiene logotipo, o desea uno nuevo podemos crear uno para usted, y usted conserva los derechos.
-</p>
-
-<br>
-<br>
-
-<h2 class="acerca-h2">Elementos especializados</h2>
-<p class="acerca-texto-3">
-Nos adaptamos a sus necesidades, si necesita algún elemento especial para su aplicación web, como una galería, calculadora, etc., nosotros lo creamos para usted.
-</p>
+  <head>
+    <meta charset="utf-8">
+<!--_________________Meta data__________________________________-->
+    <meta charset="utf-8">
+    <meta name="description" content="Wolf Web Services
+     es un servicio de creación de aplicaciones web,
+     caracterizado por no usar plantillas,
+     haciendo que su aplicación sea tan única como tu negocio">
+    <meta name="keywords" content="Wolf,
+    Web,Sevices,Páginas,Web,Aplicación,
+    unica,negocio,Monterrey,San Nicolas,Mexico">
+    <meta name="author" content="Wolf Web Services">
+    <meta property="og:url" content="https://wolfwebservices.com" />
+    <meta property="og:type" content="Website" />
+    <meta property="og:title" content="Wolf Web Services" />
+    <meta property="og:description" content="Wolf Web Services es un
+    servicio de creación de aplicaciones web, caracterizado por
+    no usar plantillas, haciendo que su aplicación
+    sea tan única como tu negocio" />
+    <meta property="og:image" content="https://wolfwebservices.com/wolf/img/wolf-transparent.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#202020" />
+    <meta name="msapplication-navbutton-color" content="#202020">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#202020">
+    <meta name="mobile-web-app-capable" content="yes">
+<!--_________________Styles_____________________________________ -->
+    <link rel="stylesheet" href="assets/css/index.css">
+<!--_________________Title_____________________________________ -->
+    <title>Wolf Web Services</title>
+  </head>
+  <body onload="loadAllPartials(); router();"> <!-- Start router onload -->
+
+<div id="views"></div><!--Views are inserted here -->
+
+<div class="footer">
+<div class="section-1-footer">
+  <div class="h1-footer">Wolf Web Services®</div>
+  <button class="text-footer " onclick="window.location.hash='/terminosycondiciones'">Términos y condiciones <span class="pe-7s-info"></span></button>
 </div>
 </div>
 
-<!--_____________PLANES____________________-->
-
-<div class="view" id="v-planes">
-
-  <div class="planes-c">
-  <h1 class="planes-h1">Planes</h1>
-
-
-  <!--_______________TABLA 1____________________________________-->
-
-<table class="table-1" cellspacing="0" cellpadding="0">
-  <tr class="row">
-    <th class="header" colspan="2" id="basico">Básico</th>
-  </tr>
-
-  <tr class="row">
-    <td colspan="2" class="price" id="basico">$4000</td>
-  </tr>
-
-<tr class="row">
-  <td class="cell-i storage"></td>
-  <td class="cell">1GB de espacio</td>
-</tr>
-
-<tr class="row dark">
-  <td class="cell-i domain"></td>
-  <td class="cell">1 Dominio .com/.com.mx</td>
-</tr>
-
-<tr class="row">
-  <td class="cell-i phone"></td>
-  <td class="cell">No compatible con dispositivos móviles</td>
-</tr>
-
-<tr class="row dark">
-  <td class="cell-i catalog"></td>
-  <td class="cell">Catálogo de productos</td>
-</tr>
-
-<tr class="row">
-  <td class="cell-i support"></td>
-  <td class="cell">Soporte técnico</td>
-</tr>
-
-<tr class="row dark">
-  <td class="cell-i email"></td>
-  <td class="cell">Correos ilimitados</td>
-</tr>
-
-<tr class="row">
-    <td class="cell año" colspan="2" id="basico">$1000 al año</td>
-</tr>
-</table>
-
-<!--_______________TABLA 2____________________________________-->
-
-<table class="table-2" cellspacing="0" cellpadding="0">
-  <tr class="row">
-    <th class="header" colspan="2" id="premium">Premium</th>
-  </tr>
-
-    <tr class="row">
-      <td colspan="2" class="price" id="premium">$5000</td>
-    </tr>
-
-
-  <tr class="row">
-    <td class="cell-i storage"></td>
-    <td class="cell">10GB de espacio</td>
-  </tr>
-
-  <tr class="row dark">
-    <td class="cell-i domain"></td>
-    <td class="cell">1 Dominio .com/.com.mx</td>
-  </tr>
-
-  <tr class="row">
-    <td class="cell-i phone"></td>
-    <td class="cell">Compatible con dispositivos móviles</td>
-  </tr>
-
-  <tr class="row dark">
-    <td class="cell-i catalog"></td>
-    <td class="cell">Catálogo de productos</td>
-  </tr>
-
-  <tr class="row">
-    <td class="cell-i support"></td>
-    <td class="cell">Soporte técnico</td>
-  </tr>
-
-  <tr class="row dark">
-    <td class="cell-i email"></td>
-    <td class="cell">Correos ilimitados</td>
-  </tr>
-
-  <tr class="row">
-    <td class="cell año" colspan="2" id="premium">$1000 al año</td>
-  </tr>
-</table>
-
-<!--_______________TABLA 3____________________________________-->
-
-<table class="table-3" cellspacing="0" cellpadding="0">
-  <tr class="row">
-    <th class="header" colspan="2" id="ultimate">Ultimate</th>
-  </tr>
-
-    <tr class="row">
-      <td colspan="2" class="price" id="ultimate">$6000</td>
-    </tr>
-
-  <tr class="row">
-    <td class="cell-i storage"></td>
-    <td class="cell">10GB de espacio</td>
-  </tr>
-
-  <tr class="row dark">
-    <td class="cell-i domain"></td>
-    <td class="cell">1 Dominio .com/.com.mx</td>
-  </tr>
-
-  <tr class="row">
-    <td class="cell-i phone"></td>
-    <td class="cell">Compatible con dispositivos móviles</td>
-  </tr>
-
-  <tr class="row dark">
-    <td class="cell-i catalog"></td>
-    <td class="cell">Catálogo de productos actualizable por el dueño</td>
-  </tr>
-
-  <tr class="row">
-    <td class="cell-i support"></td>
-    <td class="cell">Soporte técnico</td>
-  </tr>
-
-  <tr class="row dark">
-    <td class="cell-i email"></td>
-    <td class="cell">Correos ilimitados</td>
-  </tr>
-
-
-  <tr class="row">
-    <td class="cell año" colspan="2" id="ultimate">$1000 al año</td>
-  </tr>
-</table>
-
-
-<!--_______________TABLA 4____________________________________-->
-
-<table class="table-4" cellspacing="0" cellpadding="0">
-  <tr class="row">
-    <th class="header" colspan="2" id="creacion-logo">Creación de logotipo</th>
-  </tr>
-
-    <tr class="row">
-      <td colspan="2" class="price" id="creacion-logo">$1000</td>
-    </tr>
-
-  <tr class="row">
-    <td class="cell-i wolf-logo"></td>
-    <td class="cell">Diseño personalizado</td>
-  </tr>
-
-  <tr class="row dark">
-    <td class="cell-i options"></td>
-    <td class="cell">3 propuestas</td>
-  </tr>
-
-  <tr class="row">
-    <td class="cell-i case"></td>
-    <td class="cell">Usted conserva los derechos</td>
-  </tr>
-
-  <tr class="row dark">
-    <td class="cell-i fonts"></td>
-    <td class="cell">Reporte de fuentes y colores</td>
-  </tr>
-</table>
-
-
-  </div>
-
-</div>
-
-<!--_____________PORTAFOLIO____________________-->
-
-<div class="view" id="v-portafolio">
-  <div class="portafolio-c">
-  <h1 class="portafolio-h1">Portafolio</h1>
-
-
-<table class="t-demo t1" cellspacing="0" cellpadding="0">
-    <tr class="row-h">
-        <th class="h-demo demo-1" colspan="2" id="">Demo 1</th>
-    </tr>
-    <tr class="row dark">
-        <td class="row-p">
-        <div class="thumbnail img-d-1"></div>
-        </td>
-    </tr>
-  </table>
-
-  <table class="t-demo t2" cellspacing="0" cellpadding="0">
-      <tr class="row-h">
-          <th class="h-demo demo-1" colspan="2" id="">Demo 2</th>
-      </tr>
-      <tr class="row dark">
-          <td class="row-p">
-          <div class="thumbnail img-d-2"></div>
-          </td>
-      </tr>
-    </table>
-
-    <table class="t-demo t3" cellspacing="0" cellpadding="0">
-        <tr class="row-h">
-            <th class="h-demo demo-1" colspan="2" id="">Demo 3</th>
-        </tr>
-        <tr class="row dark">
-            <td class="row-p">
-            <div class="thumbnail img-d-3"></div>
-            </td>
-        </tr>
-      </table>
-
-      <table class="t-demo t4" cellspacing="0" cellpadding="0">
-          <tr class="row-h">
-              <th class="h-demo demo-1" colspan="2" id="">Demo 4</th>
-          </tr>
-          <tr class="row dark">
-              <td class="row-p">
-              <div class="thumbnail img-d-4"></div>
-              </td>
-          </tr>
-        </table>
-
-
-
-
-
-  </div>
-
-</div>
-
-<!--_____________CONTACTO____________________-->
-
-<div class="view" id="v-contacto">
-<h1 class="contacto-h1">Contacto</h1>
-
-<div class="contacto-c">
-
-
-<table class="mail-con table-con" cellspacing="0" cellpadding="0">
-    <tr class="mail-row">
-        <th class="mail-th" colspan="2" id="">E-mail</th>
-    </tr>
-    <tr class="mail-row">
-        <td class="mail-td">
-wolfwebservices.corp@gmail.com
-        </td>
-    </tr>
-  </table>
-
-
-  <table class="facebook-con table-con" cellspacing="0" cellpadding="0">
-      <tr class="facebook-row">
-          <th class="facebook-th" colspan="2" id="">Facebook</th>
-      </tr>
-      <tr class="facebook-row">
-          <td class="facebook-td">
-<a href="https://www.facebook.com/wolfwebservices/" target="_blank"><div class="facebook-img"></div></a>
-          </td>
-      </tr>
-    </table>
-
-
-    <table class="phone-con table-con" cellspacing="0" cellpadding="0">
-        <tr class="phone-row">
-            <th class="phone-th" colspan="2" id="">Teléfono</th>
-        </tr>
-        <tr class="phone-row">
-            <td class="phone-td">
-<h4 for="" class="phone-name">Angelo Giuseppe</h4> <br>
-811-89-42-683
-            </td>
-        </tr>
-      </table>
-
-
-
-
-
-
-  </div>
-
-
-</div>
-
-
-
-
-
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-86175291-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
-
-
-
-
+<div class="nav-bar"><!--Nav bar -->
+  <div class="buttons-c">
+    <button type="button" name="button"
+    onclick="inicio()" class="nav-btn pe-7s-home" id="nav-btn-inicio">
+    </button>
+
+    <button type="button" name="button"
+    onclick="window.location.hash='/acerca'" class="nav-btn pe-7s-help1" id="nav-btn-acerca">
+    </button>
+
+    <button type="button" name="button"
+    onclick="window.location.hash='/portafolio'" class="nav-btn pe-7s-folder" id="nav-btn-portafolio">
+    </button>
+
+    <button type="button" name="button"
+    onclick="window.location.hash='/planes'" class="nav-btn pe-7s-cash" id="nav-btn-planes">
+    </button>
+
+    <button type="button" name="button"
+    onclick="window.location.hash='/contacto'" class="nav-btn pe-7s-mail" id="nav-btn-contacto">
+    </button>
+  </div><!--Buttons c -->
+</div> <!--Nav bar -->
 
   </body>
+<!--_________________Scripts_____________________________________ -->
+    <script src="assets/js/pace.min.js" charset="utf-8"></script>
+    <script src="assets/js/main.js" charset="utf-8"></script>
+    <script src="assets/js/loadpartials.js" charset="utf-8"></script>
+    <script src="assets/js/router.js" charset="utf-8"></script>
 </html>

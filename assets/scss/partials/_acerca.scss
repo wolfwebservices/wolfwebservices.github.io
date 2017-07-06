@@ -1,0 +1,59 @@
+.acerca-h1{
+  color:white;
+  font-size: 54px;
+  width: 100%;
+  text-align: center;
+  background-color: #333333;
+  font-family:"trench";
+  height: 54px;
+}
+
+.acerca-h2{
+  color:#353535;
+  font-size: 3vw;
+  width: 100%;
+  text-align: center;
+  //background-color: #202020;
+  font-family: 'primelight';
+  -moz-animation:bounce .40s linear;
+  -webkit-animation:bounce .40s linear;
+}
+
+.acerca-texto-1{
+  color: #464646;
+  font-family: arial;
+  font-size: 25px;
+  width: 50%;
+  height: auto;
+  @include both(25%);
+  text-align: justify;
+ @include both-top-bottom(5vh);
+  -moz-animation:bounce .40s linear;
+  -webkit-animation:bounce .40s linear;
+}
+
+.acerca-texto-2{
+  color: #464646;
+  font-family: arial;
+  font-size: 25px;
+  width: 50%;
+  height: auto;
+  @include both(25%);
+  text-align: justify;
+  @include both-top-bottom(5vh);
+  -moz-animation:bounce .40s linear;
+  -webkit-animation:bounce .40s linear;
+}
+
+.acerca-texto-3{
+  color: #464646;
+  font-family: arial;
+  font-size: 25px;
+  width: 50%;
+  height: auto;
+  @include both(25%);
+  text-align:justify;
+@include both-top-bottom(5vh);
+  -moz-animation:bounce .40s linear;
+  -webkit-animation:bounce .40s linear;
+}

@@ -1,0 +1,16 @@
+.inicio-logo{
+  height: 60vw;
+  width: 60vw;
+  @include both(20vw);
+  margin-top: 7%;
+}
+
+
+.inicio-h1{
+  font-size: 20vw;
+}
+
+
+.inicio-h3{
+  font-size: 5vw;
+}

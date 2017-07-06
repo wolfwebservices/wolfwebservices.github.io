@@ -1,0 +1,9 @@
+@mixin both($value) {
+  margin-left: $value;
+  margin-right: $value;
+}
+
+@mixin both-top-bottom($value) {
+  margin-top: $value;
+  margin-bottom: $value;
+}
