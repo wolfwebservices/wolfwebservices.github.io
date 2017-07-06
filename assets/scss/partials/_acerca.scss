@@ -23,9 +23,8 @@
   color: #464646;
   font-family: arial;
   font-size: 25px;
-  width: 50%;
+  width: 100%;
   height: auto;
-  @include both(25%);
   text-align: justify;
  @include both-top-bottom(5vh);
   -moz-animation:bounce .40s linear;
@@ -36,9 +35,8 @@
   color: #464646;
   font-family: arial;
   font-size: 25px;
-  width: 50%;
+  width: 100%;
   height: auto;
-  @include both(25%);
   text-align: justify;
   @include both-top-bottom(5vh);
   -moz-animation:bounce .40s linear;
@@ -49,9 +47,8 @@
   color: #464646;
   font-family: arial;
   font-size: 25px;
-  width: 50%;
+  width: 100%;
   height: auto;
-  @include both(25%);
   text-align:justify;
 @include both-top-bottom(5vh);
   -moz-animation:bounce .40s linear;
@@ -70,4 +67,11 @@
   top: 0;
   z-index: -1;
   opacity: 0.3;
+}
+
+
+.text-acerca-c{
+  width: 60%;
+  height: auto;
+  @include both(20%);
 }
