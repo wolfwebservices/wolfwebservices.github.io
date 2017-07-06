@@ -7,9 +7,9 @@
   background-size: contain;
   background-repeat: no-repeat;
   @include both(35vw);
+  margin-top: 55px;
   -moz-animation:bounce .70s linear;
   -webkit-animation:bounce .70s linear;
-  margin-top: 3%;
 }
 
 .inicio-h1{
@@ -26,4 +26,26 @@
   font-size: 3vw;
   font-family:"trench";
   color: #202020;
+}
+
+
+.inicio-c{
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+}
+
+
+.inicio-wallpaper{
+  background-image: url("../img/wallpaper-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  opacity: 0.4;
+  
 }

@@ -57,3 +57,17 @@
   -moz-animation:bounce .40s linear;
   -webkit-animation:bounce .40s linear;
 }
+
+
+.acerca-wallpaper{
+  background-image: url("../img/wallpaper-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position:fixed;
+  top: 0;
+  z-index: -1;
+  opacity: 0.3;
+}
