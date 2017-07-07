@@ -34,6 +34,28 @@
   </head>
   <body onload="loadAllPartials(); router();"> <!-- Start router onload -->
 
+
+
+
+
+
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.9";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+
+
+
+
+
 <div id="views"></div><!--Views are inserted here -->
 
 <div class="footer">
@@ -41,6 +63,9 @@
   <div class="h1-footer">Wolf Web Services®</div>
   <button class="text-footer " onclick="window.location.hash='/terminosycondiciones'">Términos y condiciones <span class="pe-7s-info"></span></button>
 </div>
+
+<div class="fb-like like-c" data-href="https://www.facebook.com/wolfwebservices" data-width="50px"
+data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true" data-colorscheme="dark"></div>
 </div>
 
 <div class="nav-bar"><!--Nav bar -->
