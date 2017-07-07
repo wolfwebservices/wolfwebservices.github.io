@@ -59,3 +59,16 @@ margin-top: 50px;
 width: 50%;
 @include both(25%);
 }
+
+
+.action-btn-con{
+outline:none;
+border: none;
+background-color: #408EDE;
+font-size:15px;
+color: #fafafa;
+border-radius: 5px;
+padding: 6px;
+font-family: 'Varela Round', sans-serif;
+margin-bottom: 10px;
+}
