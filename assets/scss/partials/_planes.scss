@@ -7,3 +7,189 @@
   font-family:"trench";
   height: 54px;
 }
+
+
+.tables-planes{
+padding: 0;
+margin:0;
+width: 25%;
+margin-left: 6.25%;
+text-align: center;
+float: left;
+margin-top: 10vh;
+@include border-radius(5px);
+-moz-animation:bounce .40s linear;
+-webkit-animation:bounce .40s linear;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dark{
+background-color:#EFEFEF;
+}
+
+.light{
+  background-color: rgba(32,32,32,0.3);
+}
+
+
+
+
+
+
+
+.row{
+height: 5vh;
+}
+
+.header{
+background-color:#303030;
+width: 100%;
+color: white;
+font-size: 3vw;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+font-family: "trench";
+
+
+}
+
+
+.cell{
+width: 80%;
+font-size: 1.6vw;
+@include border-radius(5px);
+font-family:'Roboto', sans-serif;
+text-align: left;
+padding-top: 10px;
+padding-bottom: 10px;
+
+}
+
+.price{
+  font-size: 5vw;
+  color: white;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-family: "trench";
+}
+
+.cell-i{
+width: 20%;
+font-size: 2vw;
+@include border-radius(5px);
+}
+
+
+#basico{
+background-color: #006400;
+}
+
+
+#premium{
+background-color: #0078D7;
+}
+
+
+#ultimate{
+background-color: #373277;
+}
+
+#creacion-logo{
+  background-color:#3a5068 ;
+}
+
+.storage{
+  background-image: url("../img/drive.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 2vw 2vw;
+}
+
+
+.domain{
+  background-image: url("../img/domain.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 2vw 2vw;
+}
+
+.phone{
+  background-image: url("../img/phone.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 2vw 2vw;
+}
+
+.catalog{
+  background-image: url("../img/catalog.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 2vw 2vw;
+}
+
+.año{
+  color: white;
+  font-family: "trench";
+  font-size: 3vw;
+  text-align: center;
+}
+
+.support{
+  background-image: url("../img/support.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 2vw 2vw;
+}
+
+.email{
+  background-image: url("../img/e-mail.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 2vw 2vw;
+}
+
+.wolf-logo{
+  background-image: url("../img/wolf-transparent.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 2vw 2vw;
+}
+
+.fonts{
+  background-image: url("../img/fonts.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 2vw 2vw;
+}
+
+.case{
+  background-image: url("../img/case.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 2vw 2vw;
+}
+
+.options{
+  background-image: url("../img/options.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 2vw 2vw;
+}
+
+
+.planes-c{
+  min-height: 1100px;
+  width: 100%;
+}

@@ -1,0 +1,71 @@
+.planes-c{
+  min-height: 0px;
+  display: grid;
+}
+
+
+.tables-planes{
+  width: 80%;
+  @include both(10%);
+}
+
+
+.tables-c{
+  margin-bottom: 100px;
+}
+
+
+.row{
+  height: 7vh;
+}
+
+.header{
+  font-size: 15vw;
+}
+
+.price{
+  font-size: 20vw;
+}
+
+.cell{
+  font-size: 6vw;
+}
+
+.storage{
+background-size: 6vw 6vw;
+}
+.domain{
+background-size: 6vw 6vw;
+}
+.phone{
+  background-size: 6vw 6vw;
+}
+.catalog{
+  background-size: 6vw 6vw;
+}
+.support{
+  background-size: 6vw 6vw;
+}
+.email{
+  background-size: 6vw 6vw;
+}
+
+.año{
+  font-size: 10vw;
+}
+
+.wolf-logo{
+  background-size: 6vw 6vw;
+}
+
+.fonts{
+  background-size: 6vw 6vw;
+}
+
+.case{
+  background-size: 6vw 6vw;
+}
+
+.options{
+  background-size: 6vw 6vw;
+}
