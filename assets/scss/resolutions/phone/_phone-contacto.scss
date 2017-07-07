@@ -4,50 +4,16 @@ height: auto;
 }
 
 
-.table-con{
-  width: 90vw;
-  @include both(5vw);
-}
-
-.facebook-con{
-  margin-top: 5vh;
-}
-
-.phone-con{
-  margin-top: 5vh;
-  margin-bottom: 10vh;
-}
-
-
-
-
-.mail-td{
-  font-size: 5.5vw;
-}
-
-.facebook-img{
-height: 20vw;
-width: 20vw;
-@include both(35vw);
-}
-
-.phone-td{
-font-size: 5.5vw;
-}
-
-.mail-th{
-  font-size: 10vw;
-}
-
-.facebook-th{
-  font-size: 10vw;
-}
-
-.phone-th{
-  font-size: 10vw;
-}
 
 
 .contacto-blocks-c{
-margin-top: 20px; 
+margin-top: 20px;
+@include both(10%);
+width: 80%;
+min-height: 600px;
+}
+
+
+.td{
+  font-size: 100%;
 }

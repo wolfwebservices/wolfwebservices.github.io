@@ -3,111 +3,59 @@
   font-size: 54px;
   width: 100%;
   text-align: center;
-  background-color: #333333;
   font-family:"trench";
+  background-color: #333333;
   height: 54px;
 }
 
 //___________table general settings ________________
 .table-con{
-  background-color: #464646;
+  background-color: #fafafa;
   text-align: center;
-  color:white;
-  font-family: "trench";
-  width: 40vw;
-  height: auto;
-  @include border-radius(5px);
+  color:#353535;
+  font-family: 'Varela Round', sans-serif;
+  width: 100%;
+  float: left;
+  border-radius: 5px;
+  box-shadow: 3px 4px 20px rgba(32,32,32,0.5);
+  -moz-animation:bounce .40s linear;
+  -webkit-animation:bounce .40s linear;
+  margin-bottom: 50px;
 }
 
 //__________mail______________________
 
-.mail-con{
-  float: left;
-margin-left: 4.3333vw;
-
--moz-animation:bounce .40s linear;
--webkit-animation:bounce .40s linear;
-}
-
-.mail-th{
-  font-size: 3vw;
-background-color: #353535;
-}
-
-
-.mail-td{
-  height: 15vh;
-  font-size: 2.4vw;
-}
 
 //___________facebook __________________
-.facebook-con{
-  float: right;
-  margin-right: 4.3333vw;
-  -moz-animation:bounce .40s linear;
-  -webkit-animation:bounce .40s linear;
-
-}
-
-.facebook-th{
-  font-size: 3vw;
-background-color: #353535;
-}
-
-
-.facebook-td{
-  height: 15vh;
-  font-size: 2.4vw;
-}
 
 .facebook-img{
-  background-image: url("../img/facebook.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 7vw;
-  width: 7vw;
-  margin-left:16.5vw;
+font-size: 90px;
+color: #408EDE;
 }
 
 // _________Phone _______________
-.phone-con{
-  float: left;
-  margin-left: 4.3333vw;
-  margin-top: 10vh;
-  -moz-animation:bounce .40s linear;
-  -webkit-animation:bounce .40s linear;
+
+
+.th{
+font-size: 20px;
+background-color:  #408EDE;
+color: #fafafa;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+
 }
 
-.phone-th{
-  font-size: 3vw;
-background-color: #353535;
+.row-content{
+height: 100px;
 }
 
-
-.phone-td{
-  height: 15vh;
+.td{
   font-size: 2.4vw;
-}
-
-.phone-img{
-  background-image: url("../img/facebook.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 7vw;
-  width: 7vw;
-  margin-left:16.5vw;
-}
-
-.phone-name{
-  background-color: #202020;
-  width: 60%;
-  @include border-radius(20px);
-  @include both(20%);
 }
 
 
 .contacto-blocks-c{
-margin-top: 100px; 
+margin-top: 50px;
+width: 50%;
+@include both(25%);
 }
