@@ -33,6 +33,9 @@ font-size: 90px;
 color: #408EDE;
 }
 
+.facebook-img:hover{
+color: #2d7dce;
+}
 // _________Phone _______________
 
 
@@ -58,6 +61,8 @@ height: 100px;
 margin-top: 50px;
 width: 50%;
 @include both(25%);
+min-height: 650px;
+
 }
 
 
@@ -71,4 +76,12 @@ border-radius: 5px;
 padding: 6px;
 font-family: 'Varela Round', sans-serif;
 margin-bottom: 10px;
+box-shadow: 3px 1px 20px rgba(32,32,32,0.3);
+
+}
+
+.action-btn-con:hover{
+  background-color: #2d7dce;
+  box-shadow: 3px 2px 20px rgba(32,32,32,0.3);
+
 }
