@@ -1,17 +1,17 @@
-.portafolio-h1{
+.portafolio-h1 {
   font-size: 10vw;
-height: auto;
+  height: auto;
 }
 
-
-.webapp-portafolio{
+.webapp-portafolio {
   width: 80%;
-@include both(10%);
-margin-bottom: 30px;
+  @include both(10%);
+  margin-bottom: 30px;
 }
+
 
 .proyects-c{
-  margin-bottom: 300px;
+  display: grid;
   margin-top: 50px;
-
+  margin-bottom: 50px;
 }

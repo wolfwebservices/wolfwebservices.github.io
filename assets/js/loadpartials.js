@@ -33,7 +33,7 @@ request=new ActiveXObject("Microsoft.XMLHTTP");
 try{
 request.onreadystatechange=sendRoute;
 request.open("GET",url,true);
-request.setRequestHeader("Cache-Control","public", "max-age=50000");
+//request.setRequestHeader("Cache-Control","public", "max-age=50000");
 request.send();
 }
 catch(e){

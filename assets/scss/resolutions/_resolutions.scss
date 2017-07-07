@@ -3,28 +3,3 @@
 @import "phone/phone-acerca";
 @import "phone/phone-portafolio";
 }
-
-
-
-
-@media (max-device-aspect-ratio: 3/4) {
-.acerca-wallpaper{
-   height: calc(100vw * 1.333 - 9%);
-}
-}
-@media (max-device-aspect-ratio: 2/3) {
-  .acerca-wallpaper{
-    height: calc(100vw * 1.5 - 9%);
-  }
-}
-@media (max-device-aspect-ratio: 10/16) {
-.acerca-wallpaper{
-  height: calc(100vw * 1.6 - 9%);
-}
-}
-@media (max-device-aspect-ratio: 9/16) {
-.acerca-wallpaper{
-  height: calc(100vw * 1.778 - 9%);
-}
-
-}
