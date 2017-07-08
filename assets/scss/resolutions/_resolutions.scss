@@ -6,3 +6,12 @@
 @import "phone/phone-contacto";
 @import "phone/phone-footer";
 }
+
+
+
+@media (min-width:1600px) {
+  @import "big_screen/big_screen-planes";
+  @import "big_screen/big_screen-acerca";
+    @import "big_screen/big_screen-portafolio";
+      @import "big_screen/big_screen-contacto";
+}

@@ -1,0 +1,36 @@
+.row{
+  height: 4vh;
+}
+
+.header{
+  font-size: 2vw;
+}
+
+.price{
+  font-size: 4vw;
+}
+
+.cell{
+  font-size: 1.1vw;
+}
+
+
+.tables-planes{
+  width: 20%;
+@include both(2.5%);
+}
+
+
+.tables-c{
+  margin-bottom: 50px;
+}
+
+
+.storage, .domain, .phone, .catalog, .support,.email, .wolf-logo, .fonts, .case, .options{
+  background-size: 1.3vw 1.3vw;
+}
+
+
+.año{
+  font-size: 2vw;
+}
