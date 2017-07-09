@@ -1,0 +1,38 @@
+.acerca-img{
+  height:200px;
+  width: 100%;
+  background-image: url("../img/acerca-house.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-filter: blur(4px);
+}
+
+.acerca-img-wrapper{
+  overflow: hidden;
+}
+
+
+.acerca-img-color{
+  height:200px;
+  width: 100%;
+  background-color:rgba(250,250,250,0.6);
+  position: absolute;
+  z-index: 20;
+}
+
+
+.acerca-img-h1{
+  width: 100%;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #404040;
+  margin-top: 50px;
+  font-size: 5vw;
+}
+
+
+
+.acerca-v{
+    margin-top: 54px;
+}
