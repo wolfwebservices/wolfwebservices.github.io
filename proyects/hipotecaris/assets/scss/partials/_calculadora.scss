@@ -1,0 +1,125 @@
+.calculadora-img {
+  height: 200px;
+  width: 100%;
+  background-image: url("../img/calculadora.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  -webkit-filter: blur(4px);
+}
+
+.calculadora-img-wrapper {
+  overflow: hidden;
+}
+
+.calculadora-img-color {
+  height: 200px;
+  width: 100%;
+  background-color: rgba(250,250,250,0.6);
+  position: absolute;
+  z-index: 20;
+}
+
+.calculadora-img-h1 {
+  width: 100%;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #404040;
+  margin-top: 50px;
+  font-size: 5vw;
+}
+
+.calculadora-v {
+  margin-top: 54px;
+}
+
+.calculadora-c {
+  border-radius: 5px;
+  background-color: rgba(220,220,220,0.5);
+//  width: 30%;
+//  margin-left: 35%;
+//  margin-right: 35%;
+
+  width: susy-span(4 of 12);
+  float: left;
+margin-left: susy-span(1 of 12);
+  font-family: 'Poppins', sans-serif;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  backdrop-filter: blur(4px);
+}
+
+
+.calculadora-h {
+  width: 100%;
+  text-align: center;
+  font-size: 3vw;
+  color: #404040;
+}
+
+.calculadora-lbl {
+  text-align: center;
+  width: 100%;
+  color: #404040;
+}
+
+.calculadora-input {
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  background-color: #404040;
+  outline: none;
+  border-radius: 5px;
+  font-size: 24px;
+  border: none;
+  color: #464646;
+  text-align: center;
+  color: #fafafa;
+font-family: arial;
+}
+
+.calculadora-input:focus{
+  border-bottom: 3px solid #871C4A;
+}
+
+
+
+
+.calculadora-button {
+  background-color: #404040;
+  border:none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 15px;
+  width: 30%;
+  height: 30px;
+  margin-left: 35%;
+  margin-right: 35%;
+  color: #fafafa;
+  font-family: 'Poppins', sans-serif;
+}
+
+.calculadora-button:focus{
+  border-bottom: 2px solid #871C4A;
+}
+
+.calculadora-button:hover{
+background-color: #303030;
+}
+
+
+
+.graph{
+height: auto;
+//width: 40vw;
+//margin-left: 30vw;
+//margin-right: 30vw;
+width: susy-span(4 of 12);
+float: right;
+margin-right: susy-span(1 of 12);
+margin-top: 100px;
+margin-bottom:100px;
+background-color: rgba(250,250,250,0.5);
+border-radius: 5px;
+font-family: arial;
+}

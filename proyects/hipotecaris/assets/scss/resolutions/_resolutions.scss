@@ -1,0 +1,35 @@
+////////////////////////////////////////////////////////////////////////
+
+@media (min-width: 1401px) { // Mil ochenta p ( 1401 pa arriba)
+@import "desktop/nav-bar";
+@import "desktop/inicio";
+@import "desktop/acerca";
+@import "desktop/calculadora";
+@import "desktop/contacto";
+@import "desktop/main";
+}
+
+////////////////////////////////////////////////////////////////////////
+
+@media (max-width: 1400px) { // Mil para arriba (1366 etc normal)
+  @import "laptop/nav-bar";
+  @import "laptop/inicio";
+  @import "laptop/acerca";
+  @import "laptop/calculadora";
+  @import "laptop/contacto";
+  @import "laptop/main";
+
+}
+
+////////////////////////////////////////////////////////////////////////
+
+@media (max-width: 768px) {  // 768 para abajo
+  @import "phone/nav-bar";
+  @import "phone/inicio";
+  @import "phone/acerca";
+  @import "phone/calculadora";
+  @import "phone/contacto";
+  @import "phone/main";
+
+}
+////////////////////////////////////////////////////////////////////////

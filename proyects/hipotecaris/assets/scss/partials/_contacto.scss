@@ -1,0 +1,39 @@
+.contacto-img{
+  height:200px;
+  width: 100%;
+  background-image: url("../img/contacto-house.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-filter: blur(4px);
+
+}
+
+.contacto-img-wrapper{
+  overflow: hidden;
+}
+
+
+.contacto-img-color{
+  height:200px;
+  width: 100%;
+  background-color:rgba(250,250,250,0.6);
+  position: absolute;
+  z-index: 20;
+}
+
+
+.contacto-img-h1{
+  width: 100%;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #404040;
+  margin-top: 50px;
+  font-size: 5vw;
+}
+
+
+
+.contacto-v{
+    margin-top: 54px;
+}
