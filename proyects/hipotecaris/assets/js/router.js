@@ -9,7 +9,7 @@ function router(){
 ////////////////////////////LOADING CHART////////////////////////////////////
 if (window.location.hash == "#/calculadora"){
 var script = document.createElement('script');
-script.src = ".proyects/hipotecaris/assets/js/Chart.bundle.min.js";
+script.src = "/assets/js/Chart.bundle.min.js";
 script.onload = function() {
 console.log("Graph its been loaded");
 loadChart();
