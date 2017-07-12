@@ -1,0 +1,51 @@
+.terminos-h1 {
+  color: white;
+  font-size: 54px;
+  width: 100%;
+  text-align: center;
+  background-color: #333333;
+  font-family: "trench";
+  height: 54px;
+}
+
+.terminos-list {
+  text-align: left;
+
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+.terminos-txt-c {
+  width: 50%;
+  @include both(25%);
+  background-color: rgba(160,160,160,0.1);
+  font-family: 'Varela Round', sans-serif;
+  border-radius: 5px;
+  font-size: 17px;
+  box-shadow: 3px 4px 20px rgba(32,32,32,0.5);
+}
+
+
+.element-list {
+  margin-bottom: 40px;
+}
+
+ol {
+  list-style: none;
+}
+li {
+  counter-increment: item;
+  margin-bottom: 5px;
+}
+li:before {
+  margin-right: 10px;
+  content: counter(item);
+  background:#353535;
+  color: white;
+  width: 25px;
+  border-radius: 2px;
+  text-align: center;
+  display: inline-block;
+}
